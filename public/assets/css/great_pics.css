@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.great_place_container .great_parent_container .item:hover{
+    transform: scale(1,1);
+  }
 .great_place_up{
     width: 95% !important;
     height: 3px;
@@ -56,6 +59,10 @@ line-height: 150%;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+    opacity: 1;
+  }
+  .great_place_container .great_parent_container .item:hover{
+    opacity: 0.7;
   }
 
   .great_place_container .great_parent_container .item .content {

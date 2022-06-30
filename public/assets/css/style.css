@@ -62,8 +62,11 @@ font-size: 42px;
     margin: 0px 3px;
     /* width: 80%; */
     height: 350px;
-
+    transition: all linear .4s;
 }
+.post_slider .post_wrapper .post .slider_image .slick-slide:hover {
+   transform: scale(1,1);
+  }
 .post_slider .post_wrapper .post .slider_image{
     /* border: 2px solid pink; */
     display: flex;
@@ -74,10 +77,13 @@ font-size: 42px;
     position: relative;
     transition: all linear .4s;
 }
-.post_slider .post_wrapper .post .slider_image .slick-center img {
+
+.post_slider .post_wrapper .post .slider_image .slick-center .post img {
   width: 400px;
   transform: scale(1.5);
+  opacity: 1;
 }
+
 .post_slider .post_wrapper .post .post_info{
     /* border: 1px solid red; */
     display: none;

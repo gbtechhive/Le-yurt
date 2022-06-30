@@ -143,6 +143,8 @@ font-size: 32px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+
 input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
@@ -161,6 +163,7 @@ input[type="date"], focus {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
+
 .front_container .form_container form .button_cont {
     margin-top: 10px;
     margin-bottom: 20px;

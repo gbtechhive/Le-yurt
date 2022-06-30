@@ -38,6 +38,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Le-yurt</title>
+     <link rel="apple-touch-icon" sizes="180x180" href="/assets/faveicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/faveicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/faveicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/faveicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/faveicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
 
 <body>
@@ -399,7 +408,7 @@
                     <h2>Skardu</h2>
                     <p>
                         Skardu is one of the most diversified landscapes in the world. It provides easy access to the
-                        famous Katpana Desert, Deosai Planes, Manthoka Waterfall, Shangrilla Resorts, and Upper Kachura
+                        famous Katpana Desert, Deosai Planes, Manthoka Waterfall,Kamush Waterfall Shangrilla Resorts, and Upper Kachura
                         Lake. This region's landscapes, culture, traditions, and hospitality are so wholesome that
                         hundreds of thousands of tourists visit Skardu yearly.
                     </p>

@@ -5,6 +5,9 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+.slider_container .slide_container .slidee .slider_image img:hover{
+    transform: scale(1.1);
+}
 .slider_container {
     background: #ffffff;
     position: relative;
@@ -76,6 +79,8 @@ letter-spacing: 0.05em;
     object-fit: cover;
     height: 100% !important;
     object-position: bottom;
+    transition: all 1s;
+
 }
 .slider_container .slide_container .slidee .slide_content h3 {
     font-family: "Mohave";
