@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Second_navbar{
+    z-index: 2;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.Second_navbar nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .Second_navbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    }
+    .Second_navbar nav {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Second_navbar nav a{
+        margin: 10px 0px;
+        text-decoration: none;
+    }
+    .Second_navbar nav input{
+        display: none;
+    }
+    .Second_navbar nav  img {
+    Width:84px;
+    height: 51px;
+    border-Radius:6px;
+    }
+    .Second_navbar nav  label{
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .Second_navbar ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #123432;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all .3s ease;
+    }
+    .Second_navbar ul li{
+        font-family: 'Mohave';
+        margin: 30px 0px;
+        font-weight: 500;
+        transition: all 0.5s ease;
+    }
+    .Second_navbar ul li a{
+        font-family: 'Mohave';
+        font-size: 28px;
+        color: #ffffff;
+    }
+    .Second_navbar ul li a:hover,
+    .Second_navbar ul li a.active{
+        background: none;
+        color: cyan;
+    }
+    #click:checked ~ ul {
+        left: 0%;
+    }
+}

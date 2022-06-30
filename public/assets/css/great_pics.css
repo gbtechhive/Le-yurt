@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.great_place_up{
+    width: 95% !important;
+    height: 3px;
+    background-color: #fff;
+    margin: 0% auto !important;
+}
+.great_place_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #E5E5E5;
+    height: auto;
+    padding: 50px 0px;
+
+  }
+  .great_place_container h3 {
+     text-align: center;
+     padding:30px 0px;
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+letter-spacing: 0.05em;
+color: #626262;
+  }
+  .great_place_container h3 span {
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FEBD01;
+  }
+  .great_place_container .great_parent_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .great_place_container .great_parent_container .item {
+    background-image: url(/assets/images/R_img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 26.4375rem;
+    margin: 0rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+  .great_place_container .great_parent_container .item .content {
+    background: rgba(255, 255, 255, 0.7);
+    width: 40%;
+    /* position: absolute; */
+    top: 0;
+    left: 20px;
+    margin: 32px auto;
+    transition: 0.3s;
+  }
+  .great_place_container .great_parent_container .item .content:hover {
+    background: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    transition: top 1s ease-in-out;
+    /* box-shadow: 0 0 3px black; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    top: -10px;
+  }
+  .great_place_container .great_parent_container .item .content h2 {
+    margin: 15px 0px;
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    color: #444444;
+  }
+  .great_place_container .great_parent_container .item:nth-child(2) {
+    background-image: url(/assets/images/R_img7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .great_place_container .great_parent_container .item .content p {
+    display: none;
+  }
+  .great_place_container .great_parent_container .item .content:hover p {
+    display: block;
+    margin: 4px 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+    color: #000000;
+    text-transform: none;
+  }
+ .great_place_container .great_parent_container .item .content a {
+    display: none;
+    transition: all .2s;
+  }
+
+  .great_place_container .great_parent_container .item .content:hover a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Mohave";
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    margin: 20px 0px;
+line-height: 19px;
+color: #00AA4A;
+  }
+
+  @media screen and (max-width: 769px) {
+    .great_place_container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+    .great_place_container .great_parent_container {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .great_place_container .great_parent_container .item {
+      margin: 20px 10px;
+    }
+  }
+  @media screen and (max-width: 522px) {
+    .great_place_container .great_parent_container .item {
+      width: 400px;
+      height: 25.4375rem;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .great_place_container .great_parent_container .item {
+      width: 300px;
+      height: 23.4375rem;
+    }
+    .great_place_container .great_parent_container .item .content h2 {
+      margin: 5px 0px;
+      font-family: "Mohave";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.02em;
+    }
+  }
+  @media screenc and (max-width:375px) {
+    .great_place_container h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .great_place_container h3 span{
+        font-size: 32px;
+    }
+  }
+  @media screen and (max-width:326px) {
+    .great_place_container h3 {
+        font-family: "Mohave";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        letter-spacing: 0.05em;
+        color: #626262;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .great_place_container h3 span {
+        font-size: 30px;
+        color: #FEBD01;
+    }
+    .great_place_container .great_parent_container .item {
+      width: 250px;
+      height: 20.4375rem;
+    }
+    .great_place_container .great_parent_container .item .content:hover {
+    background: rgba(255, 255, 255, 0.7);
+    width: 90%;
+  }
+  }

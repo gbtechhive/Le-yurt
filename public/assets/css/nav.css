@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px; */
+}
+.Second_navbar{
+    display: none;
+}
+.navbar_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar_container .first_list {
+    width: 100%;
+}
+
+.navbar_container .first_list ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 30px 29px 30px 0px; */
+}
+
+.navbar_container .first_list ul li {
+    margin: 0 8px;
+    list-style: none;
+    font-weight: 400;
+    color:#292929;
+    font-family: 'Mohave';
+font-size: 17px;
+}
+
+.navbar_container .first_list ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.navbar_container .first_list ul li a:hover,
+.navbar_container .second_list ul li a:hover{
+    color: #00AA4A;
+}
+.navbar_container .logo_icon img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+Width:99px;
+height: 71px;
+
+}
+
+.navbar_container .second_list {
+    width: 100%;
+}
+
+.navbar_container .second_list ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 29px 30px 0px;
+}
+.navbar_container .second_list ul li {
+    margin: 0 8px;
+    list-style: none;
+    font-family: 'Mohave';
+}
+.active-nav {
+    color: #00AA4A !important;
+}
+
+.navbar_container .second_list ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* ((((((((((((((((second NavBar styling)))))))))))))))) */
+
+@media screen and (max-width:813px) {
+    .navbar_container .first_list ul {
+        justify-content: center;
+    }
+    .navbar_container .logo_icon {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar_container .second_list ul {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar_container{
+       display: none;
+    }
+}

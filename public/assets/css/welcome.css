@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome_container{
+  width: 100%;
+  background: #F3FCF6;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+.welcome_container .contant{
+    width: 75%;
+    margin: 0 auto;
+}
+.welcome_container h1{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #626262;
+}
+.welcome_container h1 span{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+color: #FEBD01;
+}
+.welcome_container p{
+font-family: 'Mohave';
+    text-transform:none;
+font-style: normal;
+text-align: center;
+line-height: 21px;
+margin:10px 0px;
+font-weight: 300;
+font-size: 16px;
+letter-spacing: 0.03em;
+color: #484848;
+}
+.welcome_container a{
+font-family: 'Mohave';
+font-style: normal;
+font-weight: 100;
+font-size: 17px;
+letter-spacing: 0.04em;
+color: #00AA4A;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 0px;
+}
+@media screen and (max-width:768px) {
+    .welcome_container p {
+        text-align: justify;
+    }
+}
+@media screen and (max-width:480px) {
+
+    .welcome_container{
+        padding: 30px 0;
+    }
+    .welcome_container .contant{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .welcome_container .contant{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .welcome_container h1{
+    font-size: 25px;
+    font-weight: 600;
+    }
+    .welcome_container h1 span{
+    font-size: 32px;
+    }
+    .welcome_container p{
+    font-size: 17px;
+    }
+
+}
+@media screen and (max-width:330px) {
+    .welcome_container h1 span{
+        font-size: 32px;
+        display: block;
+        }
+}
