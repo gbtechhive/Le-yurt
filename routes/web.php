@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\aboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\blogController;
+use App\Http\Controllers\localCuisineController;
+use App\Http\Controllers\servicesController;
+use App\Http\Controllers\CEController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +23,7 @@ Route::get('/', function () {
 });
 
 Route::get('blog', [blogController::class, 'showBlog']);
+Route::get('cuisine', [localCuisineController::class, 'ShowLocalCuisine']);
+Route::get('about', [aboutController::class, 'showAbout']);
+Route::get('services', [servicesController::class, 'showServices']);
+Route::get('cultural experience', [CEController::class, 'showCE']);

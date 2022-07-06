@@ -11,7 +11,7 @@
                 <img src="{{asset('assets/images/blog/cultural_experience-min.jpg')}}" alt="image">
                 <h1>Cultural Experience</h1>
                 <p>Some experiences in life become astronomical, especially those earned by traveling. When you visit us, we want you to have to interact with the locals, learn about their clothing style, learn how they live and experience authentic living like a local, and permeate your soul.</p>
-                <a href="">Explore more</a>
+                <a href="cultural experience">Explore more</a>
             </div>
         </div>
         <div class="col26">
@@ -27,7 +27,7 @@
                 <img src="{{asset('assets/images/blog/local_cuisine-min.jpg')}}" alt="image">
                 <h1>Local Cuisine</h1>
                 <p>No matter where you look, you will always find beauty around you. And there is no better artistthan Mother Nature with some of the best works of art being seen in mountains, ranges, and hills. And Gilgit Baltistan has been blessed as far as breathtaking views and interesting natural featuresgo. </p>
-                <a href="">Explore more</a>
+                <a href="#">Explore more</a>
             </div>
         </div>
         

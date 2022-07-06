@@ -65,7 +65,7 @@
                             <a href="/" class="nav-link {{ request()->is('/') ? 'active-nav' : '' }}">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link ">About Us</a>
+                            <a href="about" class="nav-link ">About Us</a>
                         </li>
                         <li>
                             <a href="#" class="nav-link">Our Services</a>
@@ -89,7 +89,7 @@
                             <a href="/" class="nav-link  {{ request()->is('/') ? 'active-nav' : '' }}">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link">About Us</a>
+                            <a href="about" class="nav-link">About Us</a>
                         </li>
                         <li>
                             <a href="#" class="nav-link">Our Services</a>

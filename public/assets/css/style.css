@@ -171,7 +171,7 @@
 .row2 {
     width: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     /* align-items: center; */
     justify-content: center;
     margin-top: 23px !important;
@@ -231,6 +231,421 @@
     margin-left: 10px;
 }
 /* BLOG SECTION ENDS  */
+
+/* Local Cuisine STARTS  */
+#lc-container {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #f3fcf6;
+}
+.row1 {
+    display: flex;
+    flex-direction: column;
+}
+.row1 h1 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #febd01;
+    text-align: center;
+}
+.row1 p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+#lc-container .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#lc-container .row2 .col50 {
+    width: 50%;
+}
+.row2 .col50 img {
+    width: 100%;
+}
+.row2 .col50 p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    padding: 0 10px;
+}
+/* Local Cuisine ENDS  */
+/* ABOUT SECTION CSS STARTS  */
+
+.about_main_section {
+    width: 100%;
+    height: 100%;
+    background: #e5e5e5;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.about_main_section h2 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: #febd01;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 9px;
+}
+.about_main_section .about_first_div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_main_section .about_first_div .about_first_text_div {
+    width: 58%;
+}
+.about_main_section .about_first_div .about_first_text_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.about_main_section .about_first_div .about_first_image_div {
+    width: 38%;
+    display: flex;
+}
+.about_main_section .about_first_div .about_first_image_div img {
+    /* width: 233px; */
+    /* width: 100%; */
+    height: 200px;
+}
+.about_main_section .about_first_div .about_first_image_div .second_img_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.about_main_section
+    .about_first_div
+    .about_first_image_div
+    .second_img_div
+    img {
+    width: 100%;
+    height: 100px;
+}
+
+/* ((((((((((((((next second-section styling)))))))))))))) */
+.about_second_div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.about_second_div .about_second_images {
+    width: 40%;
+    display: flex;
+}
+.about_second_div .about_second_images img {
+    width: 33%;
+    height: 200px;
+}
+.about_second_div .about_second_images .third_image_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about_second_div .about_second_images .third_image_div img {
+    width: 100%;
+    height: 100px;
+}
+.about_second_div .about_second_text_div {
+    width: 56%;
+}
+.about_second_div .about_second_text_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+
+/* (((((((((((((((section-3rt styling))))))))))))))) */
+.about_main_section .about_third_div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_main_section .about_third_div .about_third_text_div {
+    width: 58%;
+}
+.about_main_section .about_third_div .about_third_text_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.about_main_section .about_third_div .about_third_images_div {
+    width: 38%;
+}
+.about_main_section .about_third_div .about_third_img {
+    width: 38%;
+    display: flex;
+}
+.about_main_section .about_third_div .about_third_images_div img {
+    width: 100%;
+    height: 200px;
+}
+
+/* ABOUT SECTION CSS ENDS  */
+
+/* CULTURSAL EXPERIENCE CSS STARTS  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_Experience_section {
+    width: 100%;
+    height: 100%;
+    background: #e5e5e5;
+}
+.main_Experience_section .first_experience_div {
+    width: 90%;
+    margin: 0 auto;
+}
+.main_Experience_section .first_experience_div h2 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 47px;
+    color: #febd01;
+    text-align: center;
+    padding-top: 100px !important;
+    padding: 32px 0px;
+}
+.main_Experience_section .first_experience_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_Experience_section .image_AND_txt_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
+}
+.main_Experience_section .image_AND_txt_div .img_expr_condtainor {
+    width: 38%;
+}
+.main_Experience_section .image_AND_txt_div .txt_expr_containor {
+    width: 60%;
+}
+.main_Experience_section .image_AND_txt_div .img_expr_condtainor img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .main_Experience_section .image_AND_txt_div {
+        flex-direction: column;
+    }
+    .main_Experience_section .image_AND_txt_div .img_expr_condtainor {
+        width: 100%;
+    }
+    .main_Experience_section .image_AND_txt_div .txt_expr_containor {
+        width: 100%;
+    }
+}
+
+.main_Experience_section .expr_main_div {
+    margin: 16px 0px;
+    width: 100%;
+}
+.main_Experience_section .expr_main_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_Experience_section .expr_main_div p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_Experience_section .expr_main_div .expr_txt_img_div {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_Experience_section .expr_main_div .expr_txt_img_div .expr_txt_container1 {
+    width: 60%;
+}
+.main_Experience_section
+    .expr_main_div
+    .expr_txt_img_div
+    .expr_txt_container1
+    .expr_images_container1 {
+    width: 50%;
+    display: flex;
+    margin: 15px 0px;
+}
+.main_Experience_section
+    .expr_main_div
+    .expr_txt_img_div
+    .expr_txt_container1
+    .expr_images_container1
+    img {
+    width: 100%;
+}
+.main_Experience_section .expr_main_div .expr_txt_img_div .expr_txt_container1 {
+    width: 63%;
+}
+.main_Experience_section .expr_main_div .expr_txt_img_div .expr_img_container1 {
+    width: 35%;
+}
+.main_Experience_section
+    .expr_main_div
+    .expr_txt_img_div
+    .expr_img_container1
+    img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .main_Experience_section .expr_main_div .expr_txt_img_div {
+        flex-direction: column-reverse;
+    }
+    .main_Experience_section
+        .expr_main_div
+        .expr_txt_img_div
+        .expr_txt_container1 {
+        width: 100%;
+    }
+    .main_Experience_section
+        .expr_main_div
+        .expr_txt_img_div
+        .expr_img_container1 {
+        width: 100%;
+    }
+}
+
+.main_Experience_section .second_div_experience {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_Experience_section .second_div_experience .second_txt_explor {
+    width: 60%;
+}
+.main_Experience_section .second_div_experience .second_txt_explor p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_Experience_section .second_div_experience .second_image_explor {
+    width: 38%;
+}
+.main_Experience_section .second_div_experience .second_image_explor img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .main_Experience_section .second_div_experience {
+        flex-direction: column;
+    }
+    .main_Experience_section .second_div_experience .second_txt_explor {
+        width: 100%;
+    }
+    .main_Experience_section .second_div_experience .second_image_explor {
+        width: 100%;
+    }
+}
+
+.main_Experience_section .explor_section_container3 {
+    width: 90%;
+    margin: 0 auto;
+}
+.main_Experience_section .explor_section_container3 p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    margin: 8px 0px;
+}
+
+.main_Experience_section .third_Explor_images {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_Experience_section .third_Explor_images img {
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    .main_Experience_section .third_Explor_images {
+        flex-direction: column;
+    }
+    .main_Experience_section .third_Explor_images img {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+
+/* CULTURAL EXPERIENCE CSS ENDS  */
 
 /* MEDIA QUERIES START  */
 @media screen and (max-width: 900px) {
@@ -356,11 +771,98 @@
 @media (min-width: 0px) and (max-width: 618px) {
     .row1,
     .row2 {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .row1 .col26,
     .row2 .col26 {
         width: 100%;
         margin-bottom: 10px;
+    }
+}
+/* ABOUT MQ  */
+@media screen and (max-width: 768px) {
+    .about_second_div {
+        flex-direction: column-reverse;
+    }
+    .about_second_div .about_second_images {
+        width: 100%;
+        display: flex;
+    }
+    .about_second_div .about_second_text_div {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .about_main_section .about_second_div .about_second_images img {
+        width: 100%;
+        height: 200px;
+    }
+    .about_second_div .about_second_images .third_image_div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about_second_div .about_second_images .third_image_div img {
+        width: 100%;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .about_second_div .about_second_images {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about_second_div .about_second_images img {
+        width: 100%;
+        height: 300px;
+    }
+    .about_second_div .about_second_images .third_image_div img {
+        width: 100%;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about_main_section .about_first_div {
+        flex-direction: column;
+    }
+    .about_main_section .about_first_div .about_first_text_div {
+        width: 100%;
+    }
+    .about_main_section .about_first_div .about_first_image_div {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .about_main_section .about_first_div .about_first_image_div {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about_main_section .about_third_div {
+        flex-direction: column;
+    }
+    .about_main_section .about_third_div .about_third_text_div {
+        width: 100%;
+    }
+    .about_main_section .about_third_div .about_third_images_div {
+        width: 100%;
+    }
+
+    .about_main_section .about_third_div .about_third_img {
+        width: 100%;
+    }
+    .about_main_section .about_third_div .about_third_img img {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .about_main_section .about_third_div .about_third_img {
+        width: 100%;
+        flex-direction: column;
+    }
+    .about_main_section .about_third_div .about_third_img img {
+        width: 100%;
+        height: 370px;
     }
 }
