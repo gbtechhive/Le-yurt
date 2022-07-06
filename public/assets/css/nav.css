@@ -8,13 +8,13 @@
     position: fixed;
     z-index: 2;
     background: #fff;
-backdrop-filter: blur(10px);
-display: flex;
-justify-content: space-between;
-align-items: center;
-/* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px; */
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px; */
 }
-.Second_navbar{
+.Second_navbar {
     display: none;
 }
 .navbar_container {
@@ -23,7 +23,6 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .navbar_container .first_list {
     width: 100%;
@@ -41,9 +40,9 @@ align-items: center;
     margin: 0 8px;
     list-style: none;
     font-weight: 400;
-    color:#292929;
-    font-family: 'Mohave';
-font-size: 17px;
+    color: #292929;
+    font-family: "Mohave";
+    font-size: 17px;
 }
 
 .navbar_container .first_list ul li a {
@@ -57,15 +56,14 @@ font-size: 17px;
     flex-grow: 0;
 }
 .navbar_container .first_list ul li a:hover,
-.navbar_container .second_list ul li a:hover{
-    color: #00AA4A;
+.navbar_container .second_list ul li a:hover {
+    color: #00aa4a;
 }
 .navbar_container .logo_icon img {
     margin-top: 0px;
     margin-bottom: 0px;
-Width:99px;
-height: 71px;
-
+    width: 99px;
+    height: 71px;
 }
 
 .navbar_container .second_list {
@@ -82,10 +80,10 @@ height: 71px;
 .navbar_container .second_list ul li {
     margin: 0 8px;
     list-style: none;
-    font-family: 'Mohave';
+    font-family: "Mohave";
 }
 .active-nav {
-    color: #00AA4A !important;
+    color: #00aa4a !important;
 }
 
 .navbar_container .second_list ul li a {
@@ -100,7 +98,7 @@ height: 71px;
 }
 /* ((((((((((((((((second NavBar styling)))))))))))))))) */
 
-@media screen and (max-width:813px) {
+@media screen and (max-width: 813px) {
     .navbar_container .first_list ul {
         justify-content: center;
     }
@@ -114,8 +112,8 @@ height: 71px;
         justify-content: center;
     }
 }
-@media screen and (max-width:768px){
-    .navbar_container{
-       display: none;
+@media screen and (max-width: 768px) {
+    .navbar_container {
+        display: none;
     }
 }

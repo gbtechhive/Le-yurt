@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -113,7 +113,9 @@
                 </ul>
             </div>
         </nav>
-    </div>
+    </div> -->
+
+    <x-header-component/>
     <div class="header">
         <div class="front_container">
             <div class="for_messages_and_call">
@@ -304,7 +306,7 @@
             </div>
         </div>
     </div>
-    {{-- {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Slider render }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} --}}
+    <!-- {{-- {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Slider render }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} --}} -->
     <!-- <<<<<<<<<<<<<<<<<<<<<<<page wrapper>>>>>>>>>>>>>>>>>>>>>>> -->
     <div class="page_wrapper">
         <div class="post_slider">
@@ -380,7 +382,7 @@
     </div>
 
 
-    {{-- (((((((((((((((((((((******* Great Places *********))))))))))))))))))))) --}}
+    <!-- {{-- (((((((((((((((((((((******* Great Places *********))))))))))))))))))))) --}} -->
 
     <div class="great_place_container">
         <div class="great_place_up"></div>
@@ -419,9 +421,11 @@
             </div>
         </div>
     </div>
-    {{-- ((((((((((((((((
 
-    </div>((((((((******** FOOTER ***** )))))))))))))))))))))))) --}}
+    <x-footer-component/>
+    <!-- {{-- (((((((((((((((( -->
+
+    <!-- </div>((((((((******** FOOTER ***** )))))))))))))))))))))))) --}}
     <section class="footer_section">
         <div class="Footer_main_div">
             <div class="Footer_div_one">
@@ -478,18 +482,18 @@
             </div>
         </div>
     </section>
-    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<JQuery>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <<<<<<<<<<<<<<<<<<<<<<<<<<JQuery>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
     <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<JQuery (slider ki javascript) >>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
 </body>
 
-</html>
+</html> -->
