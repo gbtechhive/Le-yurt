@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:wght@300&display=swap"
             rel="stylesheet">
@@ -49,7 +50,7 @@
 
     </head>
 
-    <body>
+    <body id="text">
         <div class="navbar">
             <section class="Second_navbar">
                 <nav>
@@ -71,13 +72,19 @@
                             <a href="#" class="nav-link">Our Services</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link">News</a>
+                            <a href="yurts" class="nav-link">Yurts</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link">Blog</a>
+                            <a href="experiences" class="nav-link">Experience</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link">Contact Us</a>
+                            <a href="news" class="nav-link">News</a>
+                        </li>
+                        <li>
+                            <a href="blog" class="nav-link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contectUs" class="nav-link">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -94,21 +101,27 @@
                         <li>
                             <a href="#" class="nav-link">Our Services</a>
                         </li>
+                        <li>
+                            <a href="yurts" class="nav-link">Yurts</a>
+                        </li>
+                        <li>
+                            <a href="experiences" class="nav-link">Experience</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="logo_icon">
-                    <img src="{{ asset('assets/images/footer-logo.jpg') }}" alt="" />
+                    <a href="/"><img src="{{ asset('assets/images/footer-logo.jpg') }}" alt="" /></a>
                 </div>
                 <div class="second_list">
                     <ul>
                         <li>
-                            <a href="#">News</a>
+                            <a href="news">News</a>
                         </li>
                         <li>
                             <a href="blog">Blog</a>
                         </li>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="contectUs">Contact Us</a>
                         </li>
                     </ul>
                 </div>

@@ -6,6 +6,12 @@ use App\Http\Controllers\blogController;
 use App\Http\Controllers\localCuisineController;
 use App\Http\Controllers\servicesController;
 use App\Http\Controllers\CEController;
+use App\Http\Controllers\yurtController;
+use App\Http\Controllers\HTController;
+use App\Http\Controllers\locationController;
+use App\Http\Controllers\experienceController;
+use App\Http\Controllers\ContectUs;
+use App\Http\Controllers\controllerNews;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +33,9 @@ Route::get('cuisine', [localCuisineController::class, 'ShowLocalCuisine']);
 Route::get('about', [aboutController::class, 'showAbout']);
 Route::get('services', [servicesController::class, 'showServices']);
 Route::get('cultural experience', [CEController::class, 'showCE']);
+Route::get('yurts', [yurtController::class, 'showYurts']);
+Route::get('hike and trek', [HTController::class, 'showHikeTrek']);
+Route::get('locations', [locationController::class, 'showLocations']);
+Route::get('experiences', [experienceController::class, 'showExperience']);
+Route::get('contectUs', [ContectUs::class, 'showContectUs']);
+Route::get('news', [controllerNews::class, 'showNews']);

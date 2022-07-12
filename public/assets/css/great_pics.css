@@ -17,8 +17,8 @@
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    background-color: #E5E5E5;
-    height: auto;
+    background: #F3FCF6;
+    height: 100%;
     padding: 50px 0px;
 
   }
@@ -46,6 +46,7 @@ line-height: 150%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
   }
   .great_place_container .great_parent_container .item {
     background-image: url(/assets/images/R_img2.jpg);
@@ -59,10 +60,11 @@ line-height: 150%;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    opacity: 1;
+    transition: all 1.3s;
   }
   .great_place_container .great_parent_container .item:hover{
-    opacity: 0.7;
+
+    transform: scale(1.1);
   }
 
   .great_place_container .great_parent_container .item .content {

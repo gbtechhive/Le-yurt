@@ -5,7 +5,7 @@
 }
 .footer_section {
     /* background: #E5E5E5; */
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 .Footer_main_div {
     width: 100%;
@@ -130,6 +130,15 @@
     align-items: flex-end;
     margin-right: 400px;
     /* border: 2px solid red; */
+}
+#search_para
+{
+ color:grey;
+}
+.highlight
+{
+ color:blue;
+ text-decoration:underline;
 }
 @media only screen and (max-width: 786px) {
     .footer_img img {

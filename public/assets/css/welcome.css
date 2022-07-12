@@ -1,98 +1,462 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.welcome_container{
-  width: 100%;
-  background: #F3FCF6;
-  padding: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+.welcome_container {
+    width: 100%;
+    background: #f3fcf6;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15); */
 }
-.welcome_container .contant{
+.welcome_container .contant {
     width: 75%;
     margin: 0 auto;
 }
-.welcome_container h1{
-    font-family: 'Mohave';
-font-style: normal;
-font-weight: 600;
-font-size: 34px;
-text-align: center;
-letter-spacing: 0.05em;
-color: #626262;
+.welcome_container h1 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #626262;
 }
-.welcome_container h1 span{
-    font-family: 'Mohave';
-font-style: normal;
-font-weight: 600;
-font-size: 42px;
-color: #FEBD01;
+.welcome_container h1 span {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    color: #febd01;
 }
-.welcome_container p{
-font-family: 'Mohave';
-    text-transform:none;
-font-style: normal;
-text-align: center;
-line-height: 21px;
-margin:10px 0px;
-font-weight: 300;
-font-size: 16px;
-letter-spacing: 0.03em;
-color: #484848;
+.welcome_container p {
+    font-family: "Mohave";
+    text-transform: none;
+    font-style: normal;
+    text-align: center;
+    line-height: 21px;
+    margin: 10px 0px;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #484848;
 }
-.welcome_container a{
-font-family: 'Mohave';
-font-style: normal;
-font-weight: 100;
-font-size: 17px;
-letter-spacing: 0.04em;
-color: #00AA4A;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 10px 0px;
+.welcome_container a {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    color: #00aa4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
 }
-@media screen and (max-width:768px) {
+/* OUR SERVICES CSS  */
+#services-container {
+    width: 100%;
+    height: auto;
+    background: #f3fcf6;
+    padding: 10px 0;
+}
+#services-container .wl_row .our_ser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#services-container .wl_row .our_ser h1 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #febd01;
+}
+#services-container .wl_row .our_ser .serv {
+    color: #626262;
+}
+
+.tabs-container {
+    width: 100%;
+}
+div#tabs-nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    border-bottom: 1px solid #626262;
+}
+div#tabs-nav a:nth-child(even) {
+    margin: 0 20px;
+}
+div#tabs-nav a {
+    font-family: "Mohave";
+}
+a.tabs-menu {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #7e7e7e;
+}
+a.tabs-menu.tabs-menu-active {
+    color: #a22929;
+    border-bottom: 1px solid #a22929;
+}
+/* .tabs-content {
+    border-top: 1px solid #626262;
+} */
+.tabs-panel {
+    display: none;
+    min-height: 150px;
+    overflow: auto;
+    padding: 10px;
+    /* height: 200px; */
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* tabs form css  */
+/* Style the input container */
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+    column-gap: 15px;
+    background-color: #f3fcf6;
+}
+
+.input-container .col50-at {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e2eae5;
+    width: 100%;
+}
+
+.col50-at .class-label {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #666666;
+}
+#class {
+    border: none;
+    background-color: #f3fcf6;
+    color: #666666;
+}
+
+.input-container-fw {
+    border: 1px solid #e2eae5;
+}
+/* Style the form icons */
+.icon {
+    padding: 10px 5px;
+    /* background: dodgerblue; */
+    color: white;
+    min-width: 30px;
+    text-align: center;
+    color: #666666;
+}
+
+/* Style the input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #f3fcf6;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #00aa4a;
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #fff;
+    padding: 6px 20px;
+
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+.tourGuideTab3 {
+    margin-top: -20px;
+}
+#form-tour-guide {
+    width: 50%;
+}
+/************ CSS Animation ***********/
+
+.animated-tabs {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+    }
+
+    70% {
+        -webkit-transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+
+.wi-row2 {
+    /* background-color: #f3fcf6; */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+.wi-row2 .col50 {
+    width: 100%;
+}
+.wi-row2 .col50 .flex-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wi-row2 .col50 .form{
+    width: 55%;
+}
+.wi-row2 .col501{
+    width: 40%;
+}
+.wi-row2 .col501 img {
+    width: 100%;
+}
+@media screen and (max-width:1024px) {
+    div#tabs-nav{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
     .welcome_container p {
         text-align: justify;
     }
+    div#tabs-nav {
+        width: 100%;
+    }
+    div#tabs-nav a:nth-child(even) {
+        margin: 0 70px;
+    }
+    .wi-row2 .col50 .form{
+        width: 80%;
+    }
+    .wi-row2 .col501{
+        width: 80%;
+    }
+    .wi-row2 .col50 .flex-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .tourGuideTab3 {
+        margin-top: 10px;
+    }
+    #form-tour-guide {
+        width: 100%;
+    }
 }
-@media screen and (max-width:480px) {
-
-    .welcome_container{
+@media screen and (max-width: 480px) {
+    .welcome_container {
         padding: 30px 0;
     }
-    .welcome_container .contant{
+    .welcome_container .contant {
         width: 90%;
         margin: 0 auto;
     }
+    #form_section {
+        width: 100%;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 15px;
+        column-gap: 15px;
+        background-color: #f3fcf6;
+    }
+    .input-container .col50-at {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+    .input-container-fw {
+        display: flex;
+        flex-direction: row;
+    }
+    #input-idLast {
+        display: flex;
+        flex-direction: column;
+    }
+    .col50-at .class-label {
+        margin-left: 0px;
+    }
+    div#tabs-nav a:nth-child(even) {
+        margin: 0 30px;
+    }
 }
 
-@media screen and (max-width:375px) {
-    .welcome_container .contant{
+@media screen and (max-width: 375px) {
+    .welcome_container .contant {
         width: 90%;
         margin: 0 auto;
     }
-    .welcome_container h1{
-    font-size: 25px;
-    font-weight: 600;
+    .welcome_container h1 {
+        font-size: 25px;
+        font-weight: 600;
     }
-    .welcome_container h1 span{
-    font-size: 32px;
+    .welcome_container h1 span {
+        font-size: 32px;
     }
-    .welcome_container p{
-    font-size: 17px;
+    .welcome_container p {
+        font-size: 17px;
+    }
+    .wi-row2 .col50 .form{
+        width: 85%;
     }
 
+    .wi-row2 .col501{
+        width: 85%;
+    }
 }
-@media screen and (max-width:330px) {
-    .welcome_container h1 span{
+@media screen and (max-width: 330px) {
+    .welcome_container h1 span {
         font-size: 32px;
         display: block;
-        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .wi-row2 {
+        /* background-color: #f3fcf6; */
+        /* display: flex; */
+        flex-direction: column;
+        /* width: 80%; */
+        /* margin: auto; */
+    }
+    .wi-row2 .col50 {
+        width: 100%;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+    a.tabs-menu {
+        font-size: 15px;
+    }
+    .input-field {
+        margin-left: -20px;
+        background: transparent;
+        font-size: 14px;
+    }
+    .input-container .col50-at {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+    .col50-at .class-label {
+        margin-left: -23px;
+    }
+
+    .wi-row2 .col50 img {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 0px) and (max-width: 375px) {
+    a.tabs-menu {
+        font-size: 10px;
+    }
+    .input-field {
+        margin-left: -34px;
+        background: transparent;
+        font-size: 10px;
+    }
+    .col50-at .class-label {
+        margin-left: -23px;
+    }
+    .wi-row2 .col50 img {
+        margin-top: 10px;
+    }
+    .col50-at .fa-magnifying-glass {
+        display: none;
+    }
+    .col50-at .class-label {
+        margin-left: -6px;
+    }
+    .input-field {
+        margin-left: -17px;
+        background: transparent;
+        font-size: 12px;
+    }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+    .col50-at .class-label {
+        display: none;
+    }
+    #class {
+        background: transparent;
+        margin-left: -1px;
+    }
 }

@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* {{{{{{{{{{{{{{{{{{{'post slider'}}}}}}}}}}}}}}}}}}} */
 .post_slider {
-    /* border: 1px solid green; */
     position: relative;
     background: #e5e5e5;
     padding: 20px 0px;
@@ -27,6 +31,7 @@
     font-weight: 400;
     letter-spacing: 0.05em;
     color: #febd01;
+
     /* margin-top: 40px; */
 }
 
@@ -59,7 +64,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px 3px;
-    /* width: 80%; */
+    width: 80%;
     height: 350px;
     transition: all linear 0.4s;
 }
@@ -87,8 +92,15 @@
     /* border: 1px solid red; */
     display: none;
 }
-
-.post_slider .post_wrapper .post .active {
+.post_info .dy-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.post_info .dy-row2 {
+    margin-bottom: 10px;
+}
+.post_info .dy-row .post_slider .post_wrapper .post .active {
     background: rgba(255, 255, 255, 0.95);
     position: absolute;
     top: 240px;
@@ -100,7 +112,7 @@
     background: rgba(255, 255, 255, 0.95);
     position: absolute;
     top: 260px;
-    width: 5%;
+    width: 10%;
     height: 170px;
     text-align: center;
 }
@@ -144,7 +156,7 @@
     /* height: 100vh; */
     /* width: 100%; */
     background-color: #f3fcf6;
-    padding: 20px 0;
+    padding-bottom: 50px;
     padding-top: 80px;
 }
 #blog-container .h1,
@@ -176,6 +188,7 @@
     justify-content: center;
     margin-top: 23px !important;
     margin: auto;
+    margin-bottom: 50px;
 }
 .row1 .col26,
 .row2 .col26 {
@@ -203,7 +216,7 @@
     color: #444444;
     text-align: start;
     padding: 0 10px;
-    margin-top: 10px;
+    margin: 15px 0;
 }
 .row1 .col26 .card p,
 .row2 .col26 .card p {
@@ -216,6 +229,8 @@
     letter-spacing: 0.03em;
     color: #444444;
     padding: 0 10px;
+    margin-bottom: 15px;
+    text-transform: none;
 }
 .row1 .col26 .card a,
 .row2 .col26 .card a {
@@ -292,7 +307,7 @@
 .about_main_section {
     width: 100%;
     height: 100%;
-    background: #e5e5e5;
+    background: #f3fcf6;
     padding-top: 60px;
     padding-bottom: 20px;
 }
@@ -424,6 +439,199 @@
 
 /* ABOUT SECTION CSS ENDS  */
 
+
+/* CONTECT US STYLING PAGE IS START HERE  */
+
+.ContectUs_Container {
+    background: #F3FCF6;
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.ContectUs_Container h2{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 47px;
+color: #FEBD01;
+text-align: center;
+width: 50%;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.ContectUs_Container #contact_Form {
+  width: 50%;
+  margin: 0 auto;
+}
+.ContectUs_Container #contact_Form .contact_parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContectUs_Container #contact_Form .contact_parent .col1_div {
+    width: 90%;
+height: 36px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 7px;
+}
+.ContectUs_Container #contact_Form .contact_parent .col1_div input{
+    width: 49%;
+    padding: 8px 16px;
+    background: #F3FCF6;
+    border: 0.5px solid #FEBD01;
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #686868;
+}
+.ContectUs_Container #contact_Form .contact_parent .col2_div{
+    width: 90%;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0px;
+
+}
+.ContectUs_Container #contact_Form .contact_parent .col2_div input{
+    width: 100%;
+    padding: 8px 16px;
+    background: #F3FCF6;
+    border: 0.5px solid #FEBD01;
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686868;
+}
+.ContectUs_Container #contact_Form .contact_parent .col3_div {
+    width:90%;
+height: 143px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 7px 0px;
+}
+.ContectUs_Container #contact_Form .contact_parent .col3_div #messages{
+    width: 100%;
+    padding-left: 16px;
+    height: 143px;
+    background: #F3FCF6;
+    border: 0.5px solid #FEBD01;
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686868;
+}
+.ContectUs_Container #contact_Form .contact_parent #form_btn1{
+    border: none;
+    width: 100px;
+    height: 32px;
+    background: #00AA4A;
+    margin-top: 11px;
+    margin-bottom: 50px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:768px) {
+    .ContectUs_Container #contact_Form {
+        width: 75%;
+        margin: 0 auto;
+      }
+    .ContectUs_Container #contact_Form .contact_parent .col1_div {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .ContectUs_Container #contact_Form .contact_parent .col1_div input {
+        width: 100%;
+        margin: 7px;
+    }
+}
+@media screen and (max-width:375px) {
+    .ContectUs_Container #contact_Form {
+        width: 85%;
+        margin: 0 auto;
+      }
+}
+/* CONTECT US STYLING PAGE IS END HERE */
+
+/* News SECTION STYLING START HERE  */
+.news_container {
+    width: 100%;
+    height: auto;
+    background: #F3FCF6;
+}
+.news_container h2{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: #FEBD01;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.news_container .row1-news-container{
+    border: 2px solid brown;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news_container .row1-news-container .col1-big-image-div{
+    border: 2px solid red;
+  width: 65%;
+}
+.news_container .row1-news-container .col1-big-image-div img{
+  width: 100%;
+  height: 344px;
+}
+.news_container .row1-news-container .col1-big-image-div .news-big-txt1{
+  width: 100%;
+  height: 141px;
+}
+
+.news_container .row1-news-container .col2-small-image-div {
+    border: 2px solid green;
+  width: 33%;
+  height: auto;
+}
+.news_container .row1-news-container.col2-small-image-div .row1-small-image-container{
+    width: 100%;
+}
+.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-img1 img{
+  width: 100%;
+  height: 150px;
+}
+.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-txt1{
+  width: 100%;
+  /* height: 88.79px; */
+}
+.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-txt1 .news-btn2-heading2{
+display: flex;
+}
+
+/* News section styling END HERE  */
 /* CULTURSAL EXPERIENCE CSS STARTS  */
 * {
     padding: 0;
@@ -433,7 +641,8 @@
 .main_Experience_section {
     width: 100%;
     height: 100%;
-    background: #e5e5e5;
+    padding-bottom: 50px;
+    background: #f3fcf6;
 }
 .main_Experience_section .first_experience_div {
     width: 90%;
@@ -631,6 +840,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 .main_Experience_section .third_Explor_images img {
     width: 30%;
@@ -647,7 +857,882 @@
 
 /* CULTURAL EXPERIENCE CSS ENDS  */
 
+/* YURTS CSS START  */
+.yurt_main_section {
+    width: 100%;
+    height: 100%;
+    /* background: rosybrown; */
+    background-color: #f3fcf6;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.head {
+    font-size: 38px;
+    color: #febd01;
+    text-align: center;
+    font-family: "Mohave";
+}
+.para {
+    width: 90%;
+    margin: 0 auto;
+}
+.para-one {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    text-transform: none !important;
+}
+.para-two {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    /* identical to box height, or 27px */
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 0.03em;
+
+    color: #444444;
+}
+.img-parent {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.img {
+    width: 38%;
+    margin-right: 20px;
+}
+.img img {
+    width: 100%;
+}
+.para-three {
+    width: 60%;
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    /* or 27px */
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 0.03em;
+
+    color: #444444;
+}
+.para-four {
+    width: 90%;
+    margin: 0 auto;
+}
+.para-four p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    /* or 27px */
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    margin-top: 16px;
+
+    color: #444444;
+}
+.para-five {
+    width: 60%;
+}
+.para-five p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    /* or 27px */
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 0.03em;
+
+    color: #444444;
+}
+.para-one p,
+.para-two p,
+.para-three p,
+.para-four p,
+.para-five p,
+.if p {
+    text-transform: none;
+}
+.para-and-img {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.para-five-img {
+    width: 38%;
+}
+.para-five-img img {
+    width: 100%;
+}
+.para-five-img h4 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 137.52%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #febd01;
+    text-align: center;
+}
+
+.if {
+    width: 90%;
+    margin: 0 auto;
+}
+.if p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    /* or 27px */
+
+    text-align: justify;
+    letter-spacing: 0.03em;
+
+    color: #444444;
+}
+.three-imgs {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.three-imgs-one {
+    width: 30%;
+}
+.three-imgs-one img {
+    width: 100%;
+}
+
+.button-tag {
+    height: 30px;
+    width: 800px;
+    margin-left: 100px;
+    border-radius: 15px;
+    outline: none;
+    border-color: gray;
+}
+.sr {
+    background-color: darkgreen;
+    border-radius: 6px;
+    height: 4vh;
+    width: 68px;
+}
+.main-bt {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .img-parent {
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .para-three {
+        width: 100%;
+    }
+    .para-and-img {
+        flex-direction: column-reverse;
+    }
+    .para-five-img {
+        width: 100%;
+    }
+    .para-five {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .three-imgs {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .three-imgs-one {
+        width: 100%;
+    }
+}
+
+/* YURT CSS ENDS  */
+/* Experiece Blog STYLING START HERE  */
+.section_Experince {
+    width: 100%;
+    height: 100%;
+    background: #f3fcf6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section_Experince h2 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 47px;
+    color: #febd01;
+    margin: 32px 0px;
+    text-align: center;
+}
+.section_Experince .first_exper_div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section_Experince .first_exper_div .parent_exper_section {
+    /* border: 2px solid red; */
+    width: 390px;
+    height: 500px;
+    margin: 10px 0px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.section_Experince .first_exper_div .parent_exper_section:nth-child(16) {
+    /* border: 2px solid red; */
+    width: 856px;
+    height: auto;
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.section_Experince .first_exper_div .parent_exper_section .img_card_exper {
+    width: 100%;
+}
+.section_Experince .first_exper_div .parent_exper_section .img_card_exper img {
+    width: 100%;
+}
+
+.section_Experince .first_exper_div .parent_exper_section .text_card_exper {
+    width: 100%;
+}
+.section_Experince .first_exper_div .parent_exper_section .text_card_exper h3 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #444444;
+    margin: 10px 10px;
+}
+.section_Experince .first_exper_div .parent_exper_section .text_card_exper p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 137.52%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_Experince .first_exper_div {
+        justify-content: center;
+    }
+    .section_Experince .first_exper_div .parent_exper_section {
+        margin: 20px 20px;
+    }
+}
+@media screen and (max-width: 955px) {
+    .section_Experince .first_exper_div .parent_exper_section {
+        width: 856px;
+        height: auto;
+        margin: 20px 0px;
+        padding-bottom: 30px;
+        background-color: #fff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+            rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+}
+/* Experiece Blog STYLING END HERE  */
+/*HIKE AND TRAKE STYLING START HERE */
+.main_hikeTrake_section {
+    width: 100%;
+    height: 100%;
+    background: #f3fcf6;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.main_hikeTrake_section h2 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 47px;
+    color: #febd01;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+.main_hikeTrake_section > p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    width: 90%;
+    margin: 0 auto;
+}
+.main_hikeTrake_section .text_hike_And_track_image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.main_hikeTrake_section .text_hike_And_track_image .hike_track_image1 {
+    width: 38%;
+    margin: 16px 0px;
+}
+.main_hikeTrake_section .text_hike_And_track_image .hike_track_image1 img {
+    width: 100%;
+}
+.main_hikeTrake_section .text_hike_And_track_image .hike_track_txt1 {
+    width: 60%;
+}
+.main_hikeTrake_section .text_hike_And_track_image .hike_track_txt1 p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0px;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_txt2 {
+    width: 58%;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_txt2 p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_image2 {
+    width: 38%;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_image2 h3 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 137.52%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #febd01;
+    text-align: center;
+    margin: 10px 0px;
+}
+.main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_image2 img {
+    width: 100%;
+}
+.main_hikeTrake_section p span {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #febd01;
+}
+.main_hikeTrake_section .hike_and_track_images_section {
+    width: 90%;
+    margin: 0 auto;
+}
+.main_hikeTrake_section
+    .hike_and_track_images_section
+    .second_images_div_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.main_hikeTrake_section
+    .hike_and_track_images_section
+    .second_images_div_section
+    .imges {
+    width: 30%;
+}
+.main_hikeTrake_section
+    .hike_and_track_images_section
+    .second_images_div_section
+    .imges
+    img {
+    width: 100%;
+}
+.main_hikeTrake_section
+    .hike_and_track_images_section
+    .second_images_div_section
+    .imges
+    h3 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 137.52%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #febd01;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .main_hikeTrake_section .text_hike_And_track_image {
+        flex-direction: column;
+    }
+    .main_hikeTrake_section .text_hike_And_track_image .hike_track_image1 {
+        width: 100%;
+    }
+    .main_hikeTrake_section .text_hike_And_track_image .hike_track_txt1 {
+        width: 100%;
+    }
+    .main_hikeTrake_section .text2_hike_And_track_image2 {
+        flex-direction: column;
+    }
+    .main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_txt2 {
+        width: 100%;
+    }
+    .main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_image2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main_hikeTrake_section
+        .hike_and_track_images_section
+        .second_images_div_section {
+        flex-direction: column;
+    }
+    .main_hikeTrake_section
+        .hike_and_track_images_section
+        .second_images_div_section
+        .imges {
+        width: 100%;
+    }
+}
+/* HIKE AND TRACK STYLING END HERE */
+
+/* Local Cuisine STARTS  */
+#localCuisine_section {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: rgba(243, 252, 246, 1);
+}
+#localCuisine_section .localCuisine_txt{
+   width: 90%;
+   margin: 0 auto;
+}
+#localCuisine_section .localCuisine_txt h1{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FEBD01;
+    text-align: center;
+}
+#localCuisine_section .localCuisine_txt p{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 158.29%;
+text-align: justify;
+letter-spacing: 0.03em;
+color: #444444;
+text-transform: none;
+}
+#localCuisine_section .localCuisine_txt_img{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+#localCuisine_section .localCuisine_txt_img .localCuisine_imge{
+    width: 38%;
+}
+#localCuisine_section .localCuisine_txt_img .localCuisine_imge img{
+    width: 100%;
+}
+#localCuisine_section .localCuisine_txt_img .localCuisine_text{
+    width: 60%;
+}
+#localCuisine_section .localCuisine_txt_img .localCuisine_text p{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    text-transform: none;
+}
+#localCuisine_section .text_localCuisine_center{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+#localCuisine_section .text_localCuisine_center p{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    text-transform: none;
+}
+#localCuisine_section .localCuisine_resipi_section {
+    width: 90%;
+    margin: 0 auto;
+}
+#localCuisine_section .localCuisine_resipi_section p{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    text-transform: none;
+}
+#localCuisine_section .localCuisine_recipes_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   border-bottom: 2px solid #FEBD01;
+}
+#localCuisine_section .localCuisine_resipi_section .localCuisine_images {
+   width: 10%;
+   margin: 16px 20px;
+}
+#localCuisine_section .localCuisine_resipi_section .localCuisine_images img{
+   width: 100%;
+}
+#localCuisine_section .localCuisine_resipi_section .localCuisine_images h4{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #FEBD01;
+    text-align: center;
+    margin: 16px 0px;
+}
+#localCuisine_section .second_localCuisine_section {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1:nth-child(5){
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_image_div{
+    width: 27%;
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_txt_div{
+    width: 65%;
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_txt_div p{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 158.29%;
+text-align: justify;
+letter-spacing: 0.03em;
+color: #444444;
+text-transform: none;
+}
+
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_image_div img{
+    width: 100%;
+}
+#localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_image_div h4{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 158.29%;
+text-align: justify;
+letter-spacing: 0.03em;
+color: #FEBD01;
+text-align: center;
+margin: 10px 0px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #localCuisine_section .localCuisine_txt_img{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #localCuisine_section .localCuisine_txt_img .localCuisine_imge{
+        width: 100%;
+    }
+
+    #localCuisine_section .localCuisine_txt_img .localCuisine_text{
+        width: 100%;
+    }
+    #localCuisine_section .localCuisine_resipi_section .localCuisine_images {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 16px 10px;
+     }
+    #localCuisine_section .second_localCuisine_section {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1{
+        width: 100%;
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_image_div{
+        width: 30%;
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_txt_div{
+        width: 50%;
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1:nth-child(5){
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        padding: 16px 0px;
+    }
+}
+@media screen and (max-width:425px) {
+    #localCuisine_section .localCuisine_resipi_section .localCuisine_images {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 16px 10px;
+     }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1{
+        flex-direction: column;
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_image_div{
+        width: 80%;
+    }
+    #localCuisine_section .second_localCuisine_section .localCuisine_parent1_img1_txt1 .first_txt_div{
+        width: 100%;
+    }
+}
+/* Local Cuisine ENDS  */
+
+/* LOCATION STYLING START HERE  */
+.main_location_section {
+    width: 100%;
+    height: 100%;
+    background: #f3fcf6;
+    padding-bottom: 78px;
+    padding-top: 100px;
+}
+.main_location_section h2 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #febd01;
+    text-align: center;
+    padding-bottom: 13px;
+}
+.main_location_section .parent_location_section {
+    width: 90%;
+    margin: 0 auto;
+}
+.main_location_section .parent_location_section h3 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #febd01;
+}
+.main_location_section .parent_location_section p {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 158.29%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #444444;
+    text-transform: none;
+}
+.main_location_section .parent_location_section .images_location_div {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_location_section
+    .parent_location_section
+    .images_location_div
+    .locatioin_img1 {
+    width: 356px;
+    height: auto;
+    margin: 10px 20px;
+}
+.main_location_section .parent_location_section .images_location_div img {
+    width: 100%;
+}
+.main_location_section .parent_location_section .images_location_div h4 {
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 137.52%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #febd01;
+    text-align: center;
+}
+@media screen and (max-width: 1320px) {
+    .main_location_section
+        .parent_location_section
+        .images_location_div
+        .locatioin_img1 {
+        width: 500px;
+        height: auto;
+        margin: 10px 20px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main_location_section
+        .parent_location_section
+        .images_location_div
+        .locatioin_img1 {
+        width: 900px;
+        height: auto;
+        margin: 10px 0px;
+    }
+}
+/* LOCATION STYLING END HERE  */
+
 /* MEDIA QUERIES START  */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .slick-center .post_info {
+        width: 15% !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .slick-center .post_info {
+        width: 15% !important;
+    }
+    .post_slider .post_wrapper .post .post_info p {
+        margin: 0px !important;
+    }
+    .post_slider .post_wrapper .post .post_info h3 {
+        margin: 0px !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 425px) {
+    .slick-center .post_info {
+        width: 15% !important;
+    }
+    .post_slider .post_wrapper .post .post_info p {
+        margin: 0px !important;
+        font-size: 12px !important;
+    }
+    .post_slider .post_wrapper .post .post_info h3 {
+        margin: 0px !important;
+    }
+    .post_info .dy-row {
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    .post_slider .post_wrapper .post .post_info {
+        height: 207px !important;
+    }
+}
 @media screen and (max-width: 900px) {
     .post_slider .next {
         top: 48%;

@@ -34,7 +34,6 @@ height: 117px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #1e1e1e;
     padding: 25px 4px;
 gap: 16px;
     position: fixed;
@@ -42,8 +41,10 @@ gap: 16px;
     right: 3px;
     z-index: 1;
 }
+
 .front_container .for_messages_and_call i {
     width: 20px;
+    color: #1e1e1e;
     font-size: 1.3rem;
     height: 15px;
     order: 0;
