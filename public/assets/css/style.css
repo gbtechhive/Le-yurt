@@ -309,7 +309,7 @@
     height: 100%;
     background: #f3fcf6;
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 78px;
 }
 .about_main_section h2 {
     font-family: "Mohave";
@@ -579,6 +579,8 @@ textarea:focus, input:focus{
     width: 100%;
     height: auto;
     background: #F3FCF6;
+    padding-top: 131px;
+    padding-bottom: 78px;
 }
 .news_container h2{
     font-family: 'Mohave';
@@ -590,47 +592,169 @@ textarea:focus, input:focus{
     margin-bottom: 26px;
 }
 .news_container .row1-news-container{
-    border: 2px solid brown;
   width: 90%;
   height: auto;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-bottom: 20px;
+  /* align-items: center; */
 }
-.news_container .row1-news-container .col1-big-image-div{
-    border: 2px solid red;
-  width: 65%;
+.news_container .row2-news-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  flex-direction: row-reverse;
 }
-.news_container .row1-news-container .col1-big-image-div img{
+.col1-big-image-div{
+  width: 63%;
+  height: 500px;
+}
+.col1-big-image-div img{
   width: 100%;
   height: 344px;
 }
-.news_container .row1-news-container .col1-big-image-div .news-big-txt1{
+.news-big-txt1 {
   width: 100%;
-  height: 141px;
+  height: 144px;
+  margin: 8px 0px;
+}
+.news-big-txt1 p{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
-.news_container .row1-news-container .col2-small-image-div {
-    border: 2px solid green;
-  width: 33%;
+.news-btn1-heading1{
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.news-btn1-heading1 button{
+    padding: 4px 16px;
+    color: #FFFFFF;
+flex: none;
+border: none;
+order: 0;
+flex-grow: 0;
+font-family: 'Mohave';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+    background: #FEBD01;
+    margin-right: 11px;
+}
+.news-btn1-heading1 h3{
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 42px;
+color: #000000;
+}
+.col2-small-image-div {
+    /* border: 2px solid green; */
+  width: 35%;
   height: auto;
 }
-.news_container .row1-news-container.col2-small-image-div .row1-small-image-container{
+.col2-small-image-div .row1-small-image-container{
     width: 100%;
 }
-.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-img1 img{
+.news-small-img1 {
+  height: auto;
+}
+.news-small-img1 img{
   width: 100%;
   height: 150px;
 }
-.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-txt1{
+.news-small-txt1{
   width: 100%;
   /* height: 88.79px; */
+  height: auto;
+  margin-top: 4px;
+  margin-bottom: 5px;
 }
-.news_container .row1-news-container .col2-small-image-div .row1-small-image-container .news-small-txt1 .news-btn2-heading2{
+.news-small-txt1 p{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8763px;
+    line-height: 15px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.news-btn2-heading2{
 display: flex;
+margin-bottom: 5px;
 }
+.news-btn2-heading2 button{
+    background: #FEBD01;
+    padding:3.35px 10px;
+    font-family: 'Mohave';
+font-style: normal;
+font-weight: 600;
+font-size: 8.95699px;
+line-height: 12px;
+color: #FFFFFF;
+border: none;
+margin-right: 7.04px;
+}
+.news-btn2-heading2 h3{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.1935px;
+    line-height: 27px;
+    color: #000000;
 
+}
+@media screen and (max-width:768px) {
+    .news_container .row1-news-container{
+        flex-direction: column;
+    }
+    .news_container .row2-news-container{
+        flex-direction: column;
+    }
+    .col1-big-image-div {
+        width: 100%;
+        height: auto;
+    }
+    .news-big-txt1 {
+        width: 100%;
+        height: auto;
+        margin: 8px 0px;
+    }
+    .col2-small-image-div {
+        width: 100%;
+        height: auto;
+    }
+    .news-small-img1 img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:425px) {
+    .col1-big-image-div img {
+        height: auto;
+    }
+}
+@media screen and (max-width:375px) {
+    .news-btn1-heading1{
+        flex-direction: column;
+    }
+    .news-btn1-heading1 button {
+        padding: 16px 16px;
+        width: 40%;
+        }
+}
 /* News section styling END HERE  */
 /* CULTURSAL EXPERIENCE CSS STARTS  */
 * {

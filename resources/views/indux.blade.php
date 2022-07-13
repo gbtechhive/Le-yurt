@@ -25,8 +25,10 @@
                         <option value="Skardu">
                         <option value="Ghizer">
                     </datalist>
-                    <input type="date" placeholder="Check In" required="required" />
-                    <input type="date" placeholder="Check Out" required="required" />
+                    <input placeholder="Check In" required="required" type="text" onfocus="(this.type='date')"
+                        onblur="if(!this.value)this.type='text'" />
+                    <input placeholder="Check Out" required="required" type="text" onfocus="(this.type='date')"
+                        onblur="if(!this.value)this.type='text'" />
                 </div>
                 <div class="button_cont">
                     <button>Book Now</button>
@@ -73,45 +75,42 @@
                             <form action="" id="form_section">
                                 <div class="input-container">
                                     <div class="col50-at">
+                                        <input class="input-field" type="text" placeholder="Full Name*"
+                                            name="leavingFrom">
+                                    </div>
+                                    <div class="col50-at">
                                         <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" placeholder="Leaving From"
-                                            name="leavingFrom">
+                                        <input class="input-field" type="text" name="search"
+                                            placeholder="Leaving From" name="leavingFrom">
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" placeholder="Leaving Top"
-                                            name="leavingFrom">
+                                        <input class="input-field" type="text" name="search"
+                                            placeholder="Leaving To" name="leavingFrom">
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                 </div>
-
                                 <div class="input-container input-container-fw ">
                                     <i class="fa-solid fa-plane-departure icon"></i>
-                                    <input class="input-field" type="text" placeholder="Departure" name="departure">
+                                    <input class="input-field" placeholder="Departure Date" name="departure"
+                                        type="text" onfocus="(this.type='date')"
+                                        onblur="if(!this.value)this.type='text'">
                                 </div>
                                 <div class="input-container" id="input-idLast">
                                     <div class="col50-at">
-                                        <!-- <i class="fa fa-user icon"></i> -->
-                                        <i class="fa-solid fa-rectangle-list icon"></i>
-                                        <!-- <input class="input-field" type="text" placeholder="Class" name="class"> -->
-                                        <label class=" input-field class-label" for="class">Class</label>
-                                        <select name="class" id="class">
-                                            <option value="class">First-Class</option>
-                                            <option value="class">Business Class</option>
-                                            <option value="class">Premium Class</option>
-                                            <option value="class">Economy class</option>
-                                        </select>
+                                        <i class="fa-solid fa-phone-volume icon"></i>
+                                        <input type="number" class="input-field" placeholder="Contact Number">
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa fa-users icon"></i>
                                         <i class="fa-solid fa-seat-airline"></i>
-                                        <input class="input-field" type="text" placeholder="Seats"
+                                        <input class="input-field" type="text" placeholder="Childs"
                                             name="seats">
                                     </div>
                                 </div>
-                                <button type="submit" class="btn">Explore More</button>
+                                <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
                                 <img src="{{ asset('assets/images/undraw_aircraft-min.png') }}" alt="image">
@@ -123,7 +122,10 @@
                             <form action="">
                                 <div class="input-container">
                                     <div class="col50-at">
-                                        <!-- <i class="fa fa-user icon"></i> -->
+                                        <input class="input-field" type="text" placeholder="full name"
+                                            name="full name">
+                                    </div>
+                                    <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
                                         <input class="input-field" type="text" placeholder="Leaving From"
                                             name="leavingFrom">
@@ -139,10 +141,15 @@
                                 <div class="input-container input-container-fw ">
                                     {{-- <i class="fa fa-solid fa-sidebar-flip icon"></i> --}}
                                     <i class="fa-solid fa-car-side icon"></i>
-                                    <input class="input-field" type="text" placeholder="Departure"
-                                        name="departure">
+                                    <input class="input-field" type="text" placeholder="Departure Date"
+                                        name="departure" onfocus="(this.type='date')"
+                                        onblur="if(!this.value)this.type='text'">
                                 </div>
                                 <div class="input-container">
+                                    <div class="col50-at">
+                                        <i class="fa-solid fa-phone-volume icon"></i>
+                                        <input type="number" class="input-field" placeholder="Contact Number">
+                                    </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-car-side icon"></i>
                                         <!-- <input class="input-field" type="text" placeholder="Class" name="class"> -->
@@ -155,7 +162,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn">Explore More</button>
+                                <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
                                 <img src="{{ asset('assets/images/servic-img(1).png') }}" alt="image">
@@ -165,7 +172,11 @@
                     <div id="tab_3" class="tabs-panel tourGuideTab3">
                         <div class="flex-content">
                             <form action="" id="form-tour-guide">
-                                <div class="input-container" >
+                                <div class="input-container">
+                                    <div class="col50-at">
+                                        <input class="input-field" type="text" placeholder="full name"
+                                            name="full name">
+                                    </div>
                                     <div class="col50-at">
                                         <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa-solid fa-location-dot icon"></i>
@@ -179,11 +190,15 @@
                                     <input class="input-field" type="text" placeholder="Language Preference"
                                         name="Language Preference">
                                 </div>
+                                <div class="input-container input-container-fw ">
+                                    <div class="col50-at">
+                                        <i class="fa-solid fa-phone-volume icon"></i>
+                                        <input type="number" class="input-field" placeholder="Contact Number">
+                                    </div>
+                                </div>
                                 <div class="input-container">
                                     <div class="col50-at">
-                                        <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa fa-light fa-user icon"></i>
-                                        <!-- <input class="input-field" type="text" placeholder="Class" name="class"> -->
                                         <label class=" input-field class-label" for="class">Gender</label>
                                         <select name="class" id="class">
                                             <option value="class">Male</option>
@@ -191,7 +206,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn">Explore More</button>
+                                <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
                                 <img src="{{ asset('assets/images/servic-img(2).png') }}" alt="image">
@@ -335,7 +350,8 @@
         </div>
         <div class="prev_next_parent">
             <div id="prev" onclick="prev()">
-                <img src="{{ asset('assets/images/Arrow(1).jpg') }}" alt="" width="30" height="20">
+                <img src="{{ asset('assets/images/Arrow(1).jpg') }}" alt="" width="30"
+                    height="20">
             </div>
             <div id="next" onclick="next()">
                 <img src="{{ asset('assets/images/Arrow(2).jpg') }}" alt="" width="30"
