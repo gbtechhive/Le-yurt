@@ -12,6 +12,10 @@ use App\Http\Controllers\locationController;
 use App\Http\Controllers\experienceController;
 use App\Http\Controllers\ContectUs;
 use App\Http\Controllers\controllerNews;
+use App\Http\Controllers\toursController;
+use App\Http\Controllers\airTicketController;
+use App\Http\Controllers\carRentalController;
+use App\Http\Controllers\guestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +43,9 @@ Route::get('locations', [locationController::class, 'showLocations']);
 Route::get('experiences', [experienceController::class, 'showExperience']);
 Route::get('contectUs', [ContectUs::class, 'showContectUs']);
 Route::get('news', [controllerNews::class, 'showNews']);
+
+Route::resource('reservation', guestController::class);
+Route::resource('airTicketReservations', airTicketController::class);
+Route::resource('vehicleReservations', carRentalController::class);
+Route::resource('tourGuideReservations', toursController::class);
+

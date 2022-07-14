@@ -14,24 +14,27 @@
             <p>
                 Destiny Is All
             </p>
+
         </div>
         <div class="form_container">
-            <form action="" class="form">
+  
+                <form action="{{ route('reservation.store') }}" method="POST" class="form">
+                    @csrf
                 <div class="form_inputs">
-                    <input type="text" placeholder="Guests" style="font-family: 'Mohave'; font-size:13px" />
-                    <input list="browsers" placeholder="Location" name="browser"
+                    <input type="text" placeholder="Guests"  name="name" style="font-family: 'Mohave'; font-size:13px" />
+                    <input list="browsers" placeholder="Location" name="location"
                         style="font-family: 'Mohave'; font-size:13px" />
                     <datalist id="browsers">
                         <option value="Skardu">
                         <option value="Ghizer">
                     </datalist>
-                    <input placeholder="Check In" required="required" type="text" onfocus="(this.type='date')"
+                    <input placeholder="Check In" required="required"  name="checkInn" type="text" onfocus="(this.type='date')"
                         onblur="if(!this.value)this.type='text'" />
-                    <input placeholder="Check Out" required="required" type="text" onfocus="(this.type='date')"
+                    <input placeholder="Check Out" required="required"   name="checkOut" type="text" onfocus="(this.type='date')"
                         onblur="if(!this.value)this.type='text'" />
                 </div>
                 <div class="button_cont">
-                    <button>Book Now</button>
+                    <button type="submit">Book Now</button>
                 </div>
             </form>
         </div>
@@ -72,42 +75,45 @@
                 <div class="tabs-content">
                     <div id="tab_1" class="tabs-panel" style="display:block">
                         <div class="flex-content">
-                            <form action="" id="form_section">
+                            
+                <form action="{{ route('airTicketReservations.store') }}" method="POST"  enctype="multipart/form-data" class="form" id="form_section">
+                    @csrf
+                         
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <input class="input-field" type="text" placeholder="Full Name*"
-                                            name="leavingFrom">
+                                            name="fullName" required>
                                     </div>
                                     <div class="col50-at">
                                         <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" name="search"
-                                            placeholder="Leaving From" name="leavingFrom">
+                                        <input class="input-field" type="text" 
+                                            placeholder="Leaving From" name="leavingFrom" required>
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" name="search"
-                                            placeholder="Leaving To" name="leavingFrom">
+                                        <input class="input-field" type="text" 
+                                            placeholder="Leaving To" name="leavingTo" required>
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                 </div>
                                 <div class="input-container input-container-fw ">
                                     <i class="fa-solid fa-plane-departure icon"></i>
-                                    <input class="input-field" placeholder="Departure Date" name="departure"
+                                    <input class="input-field" placeholder="Departure Date" name="departureDate"
                                         type="text" onfocus="(this.type='date')"
-                                        onblur="if(!this.value)this.type='text'">
+                                        onblur="if(!this.value)this.type='text'" required>
                                 </div>
                                 <div class="input-container" id="input-idLast">
                                     <div class="col50-at">
                                         <i class="fa-solid fa-phone-volume icon"></i>
-                                        <input type="number" class="input-field" placeholder="Contact Number">
+                                        <input type="number" class="input-field" placeholder="Contact Number" name="cellno" required>
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa fa-users icon"></i>
                                         <i class="fa-solid fa-seat-airline"></i>
-                                        <input class="input-field" type="text" placeholder="Childs"
-                                            name="seats">
+                                        <input class="input-field" type="text" type="number" placeholder="Number of Childs "
+                                            name="numberOFChilds" required>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn">Submit Now</button>
@@ -119,11 +125,12 @@
                     </div>
                     <div id="tab_2" class="tabs-panel">
                         <div class="flex-content">
-                            <form action="">
+                            <form action="{{ route('vehicleReservations.store') }}" method="POST"  enctype="multipart/form-data" >
+                                @csrf
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <input class="input-field" type="text" placeholder="full name"
-                                            name="full name">
+                                            name="fullName">
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
@@ -134,7 +141,7 @@
                                     <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
                                         <input class="input-field" type="text" placeholder="Leaving To"
-                                            name="leavingFrom">
+                                            name="leavingTo">
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                 </div>
@@ -142,23 +149,23 @@
                                     {{-- <i class="fa fa-solid fa-sidebar-flip icon"></i> --}}
                                     <i class="fa-solid fa-car-side icon"></i>
                                     <input class="input-field" type="text" placeholder="Departure Date"
-                                        name="departure" onfocus="(this.type='date')"
+                                        name="departureDate" onfocus="(this.type='date')"
                                         onblur="if(!this.value)this.type='text'">
                                 </div>
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <i class="fa-solid fa-phone-volume icon"></i>
-                                        <input type="number" class="input-field" placeholder="Contact Number">
+                                        <input type="number" class="input-field" name="cellno" placeholder="Contact Number">
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-car-side icon"></i>
                                         <!-- <input class="input-field" type="text" placeholder="Class" name="class"> -->
                                         <label class=" input-field class-label" for="class">Types of Car</label>
-                                        <select name="class" id="class">
-                                            <option value="class">First-Class</option>
-                                            <option value="class">Business Class</option>
-                                            <option value="class">Premium Class</option>
-                                            <option value="class">Economy class</option>
+                                        <select name="vehicle" id="class">
+                                            <option value="T-z">T-z</option>
+                                            <option value="V-8">V-8</option>
+                                            <option value="Car">Car</option>
+                                            <option value="Jeep">Jeep</option>
                                         </select>
                                     </div>
                                 </div>
@@ -171,38 +178,40 @@
                     </div>
                     <div id="tab_3" class="tabs-panel tourGuideTab3">
                         <div class="flex-content">
-                            <form action="" id="form-tour-guide">
+                            <form action="{{ route('tourGuideReservations.store') }}" method="POST"  enctype="multipart/form-data"  id="form-tour-guide">
+                                @csrf
+                        
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <input class="input-field" type="text" placeholder="full name"
-                                            name="full name">
+                                            name="fullName">
                                     </div>
                                     <div class="col50-at">
                                         <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa-solid fa-location-dot icon"></i>
                                         <input class="input-field" type="text" placeholder="Location"
-                                            name="LocationFrom">
+                                            name="location">
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                 </div>
                                 <div class="input-container input-container-fw ">
                                     <i class="fa fa-light fa-language icon"></i>
                                     <input class="input-field" type="text" placeholder="Language Preference"
-                                        name="Language Preference">
+                                        name="language">
                                 </div>
                                 <div class="input-container input-container-fw ">
                                     <div class="col50-at">
                                         <i class="fa-solid fa-phone-volume icon"></i>
-                                        <input type="number" class="input-field" placeholder="Contact Number">
+                                        <input type="number" class="input-field"   name="cellno" placeholder="Contact Number">
                                     </div>
                                 </div>
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <i class="fa fa-light fa-user icon"></i>
                                         <label class=" input-field class-label" for="class">Gender</label>
-                                        <select name="class" id="class">
-                                            <option value="class">Male</option>
-                                            <option value="class">Female</option>
+                                        <select name="gender" id="class" >
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
                                         </select>
                                     </div>
                                 </div>
