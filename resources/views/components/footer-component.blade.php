@@ -18,14 +18,14 @@
                                 <ul>
                                     <a href="about"><li>About Us</li></a>
                                     <a href="experiences"><li>Experience</li></a>
-                                    <a href="news"><li>News</li></a>
+                                    <a href="blog"><li>Blog</li></a>
                                 </ul>
                             </div>
                             <div class="Footer_text_area_lists">
                                 <h2>Get In Touch </h2>
                                 <ul>
                                     <li>05811-551855</li>
-                                    <li>gbtechive@gmail.com</li>
+                                    <li>info@leyurt.com</li>
                                     <li>HSS Ave., Gilgit</li>
                                 </ul>
                             </div>
