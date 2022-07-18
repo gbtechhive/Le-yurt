@@ -340,6 +340,7 @@
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .about_main_section .about_first_div .about_first_image_div {
     width: 38%;
@@ -402,6 +403,7 @@
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 
 /* (((((((((((((((section-3rt styling))))))))))))))) */
@@ -424,6 +426,7 @@
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .about_main_section .about_third_div .about_third_images_div {
     width: 38%;
@@ -690,6 +693,7 @@ color: #000000;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #000000;
+    text-transform: none;
 }
 .news-btn2-heading2{
 display: flex;
@@ -714,7 +718,6 @@ margin-right: 7.04px;
     font-size: 19.1935px;
     line-height: 27px;
     color: #000000;
-
 }
 @media screen and (max-width:768px) {
     .news_container .row1-news-container{
@@ -792,6 +795,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_Experience_section .image_AND_txt_div {
     display: flex;
@@ -835,6 +839,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_Experience_section .expr_main_div p {
     font-family: "Mohave";
@@ -845,6 +850,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_Experience_section .expr_main_div .expr_txt_img_div {
     display: flex;
@@ -923,6 +929,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_Experience_section .second_div_experience .second_image_explor {
     width: 38%;
@@ -956,6 +963,7 @@ margin-right: 7.04px;
     letter-spacing: 0.03em;
     color: #444444;
     margin: 8px 0px;
+    text-transform: none;
 }
 
 .main_Experience_section .third_Explor_images {
@@ -1275,6 +1283,7 @@ margin-right: 7.04px;
     letter-spacing: 0.03em;
     color: #444444;
     margin: 0px 10px;
+    text-transform: none;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1328,6 +1337,7 @@ margin-right: 7.04px;
     color: #444444;
     width: 90%;
     margin: 0 auto;
+    text-transform: none;
 }
 .main_hikeTrake_section .text_hike_And_track_image {
     display: flex;
@@ -1355,6 +1365,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_hikeTrake_section .text2_hike_And_track_image2 {
     width: 90%;
@@ -1376,6 +1387,7 @@ margin-right: 7.04px;
     text-align: justify;
     letter-spacing: 0.03em;
     color: #444444;
+    text-transform: none;
 }
 .main_hikeTrake_section .text2_hike_And_track_image2 .hike_track_image2 {
     width: 38%;
