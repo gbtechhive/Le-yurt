@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\guests;
+use Brian2694\Toastr\Facades\Toastr;
 
 class guestController extends Controller
 {
@@ -48,10 +49,12 @@ class guestController extends Controller
 
         $result = guests::create($data);
 if($result != null){
-return redirect()->back()->with("success","Thanks For Submission");;
+    Toastr::success('Thanks For Submission :)','Success');
+return redirect()->back();
 
 }else{
-    return redirect()->back()->with("error","Failed to Data Submission");
+    Toastr::error('Failed to Data Submission ','Failed');
+    return redirect()->back();
 
 }
        

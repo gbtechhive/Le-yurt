@@ -1,4 +1,5 @@
 <x-header-component />
+{!! Toastr::message() !!}
 <div class="header">
     <div class="front_container">
         <div class="for_messages_and_call">
@@ -16,6 +17,7 @@
             </p>
 
         </div>
+
         <div class="form_container">
   
                 <form action="{{ route('reservation.store') }}" method="POST" class="form">
@@ -40,6 +42,11 @@
         </div>
     </div>
 </div>
+
+
+
+
+
 <div class="welcome_container">
     <div class="contant">
         <h1>Welcome to <span>Le-Yurt</span></h1>
