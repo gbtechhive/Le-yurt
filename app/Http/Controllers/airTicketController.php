@@ -50,12 +50,12 @@ class airTicketController extends Controller
 
         $result = airPlaneTicket::create($data);
 if($result != null){
-    Toastr::success('Thanks For Submission :)','Success');
-return redirect()->back();
+    // Toastr::success('Thanks For Submission :)','Success');
+    return redirect()->back()->with("msg","Thanks For Submission :) ,Success");
 
 }else{
-    Toastr::error('Failed to Data Submission ','Failed');
-    return redirect()->back();
+    return redirect()->back()->with("msg","Failed to Data Submission,Failed");;
+   
 
 }
     }

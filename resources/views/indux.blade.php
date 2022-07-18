@@ -1,5 +1,5 @@
 <x-header-component />
-{!! Toastr::message() !!}
+
 <div class="header">
     <div class="front_container">
         <div class="for_messages_and_call">
@@ -17,7 +17,7 @@
             </p>
 
         </div>
-
+        {{-- {!! Toastr::message() !!} --}}
         <div class="form_container">
 
                 <form action="{{ route('reservation.store') }}" method="POST" class="form">
@@ -43,11 +43,18 @@
     </div>
 </div>
 
+@if ($message = Session::get('msg'))
 
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <p>{{$message}}</p>
+  </div>
+@endif
 
 
 
 <div class="welcome_container">
+ 
     <div class="contant">
         <h1>Welcome to <span>Le-Yurt</span></h1>
         <p>

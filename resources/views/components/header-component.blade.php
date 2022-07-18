@@ -47,7 +47,30 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-
+        <style>
+            .alert {
+                width: 30%;
+              padding: 20px;
+              background-color: hsl(112, 62%, 71%);
+              color: white;
+          
+            }
+            
+            .closebtn {
+              margin-left: 15px;
+              color: white;
+              font-weight: bold;
+              float: right;
+              font-size: 22px;
+              line-height: 20px;
+              cursor: pointer;
+              transition: 0.3s;
+            }
+            
+            .closebtn:hover {
+              color: black;
+            }
+            </style>
     </head>
 
     <body id="text">

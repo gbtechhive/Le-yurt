@@ -51,12 +51,12 @@ class carRentalController extends Controller
 
         $result = carRental::create($data);
 if($result != null){
-    Toastr::success('Thanks For Submission :)','Success');
-return redirect()->back();
+    // Toastr::success('Thanks For Submission :)','Success');
+    return redirect()->back()->with("msg","Thanks For Submission :) ,Success");
 
 }else{
-    Toastr::error('Failed to Data Submission ','Failed');
-    return redirect()->back();
+    // Toastr::error('Failed to Data Submission ','Failed');
+    return redirect()->back()->with("msg","Failed to Data Submission,Failed");;
 
 }
     }
