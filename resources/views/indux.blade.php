@@ -54,7 +54,7 @@
 
 
 <div class="welcome_container">
- 
+
     <div class="contant">
         <h1>Welcome to <span>Le-Yurt</span></h1>
         <p>
@@ -126,7 +126,7 @@
                                     <div class="col50-at">
                                         <i class="fa fa-users icon"></i>
                                         <i class="fa-solid fa-seat-airline"></i>
-                                        <input class="input-field" type="text" type="number" placeholder="Number of Childrens"
+                                        <input class="input-field" type="text" type="number" placeholder="Number of Children"
                                             name="numberOFChilds" required>
                                     </div>
                                 </div>

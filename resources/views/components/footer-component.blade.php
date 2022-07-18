@@ -10,22 +10,22 @@
                 <div id="p_tag">
                     <div class="Footer_text_area">
                         <div class="Footer_text_area_logo">
-                            <img src="{{ asset('assets/images/footer-logo.jpg') }}" alt="">
+                            <a href="about"><img src="{{ asset('assets/images/footer-logo.jpg') }}" alt=""></a>
                         </div>
                         <div class="Footer_list_combine_container">
                             <div class="Footer_text_area_lists">
                                 <h2>Useful Links</h2>
                                 <ul>
-                                    <li>About Us</li>
-                                    <li>Testimonials</li>
-                                    <li>News</li>
+                                    <a href="about"><li>About Us</li></a>
+                                    <a href="experiences"><li>Experience</li></a>
+                                    <a href="news"><li>News</li></a>
                                 </ul>
                             </div>
                             <div class="Footer_text_area_lists">
                                 <h2>Get In Touch </h2>
                                 <ul>
-                                    <li>+923XXXXXXX</li>
-                                    <li>info@leyurt.com</li>
+                                    <li>05811-551855</li>
+                                    <li>gbtechive@gmail.com</li>
                                     <li>HSS Ave., Gilgit</li>
                                 </ul>
                             </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="Footer_div_two">
                 <div class="footer_img">
-                    <img src="{{ asset('assets/images/R_img(4).jpg') }}" alt="">
+                    <a href="about"><img src="{{ asset('assets/images/R_img(4).jpg') }}" alt=""></a>
                 </div>
             </div>
         </div>
