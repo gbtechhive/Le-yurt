@@ -17,7 +17,7 @@
 
         </div>
         <div class="form_container">
-  
+
                 <form action="{{ route('reservation.store') }}" method="POST" class="form">
                     @csrf
                 <div class="form_inputs">
@@ -75,10 +75,10 @@
                 <div class="tabs-content">
                     <div id="tab_1" class="tabs-panel" style="display:block">
                         <div class="flex-content">
-                            
+
                 <form action="{{ route('airTicketReservations.store') }}" method="POST"  enctype="multipart/form-data" class="form" id="form_section">
                     @csrf
-                         
+
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <input class="input-field" type="text" placeholder="Full Name*"
@@ -87,13 +87,13 @@
                                     <div class="col50-at">
                                         <!-- <i class="fa fa-user icon"></i> -->
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" 
+                                        <input class="input-field" type="text"
                                             placeholder="Leaving From" name="leavingFrom" required>
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
                                     <div class="col50-at">
                                         <i class="fa-solid fa-location-dot icon"></i>
-                                        <input class="input-field" type="text" 
+                                        <input class="input-field" type="text"
                                             placeholder="Leaving To" name="leavingTo" required>
                                         <i class="fa-solid fa-magnifying-glass icon"></i>
                                     </div>
@@ -112,7 +112,7 @@
                                     <div class="col50-at">
                                         <i class="fa fa-users icon"></i>
                                         <i class="fa-solid fa-seat-airline"></i>
-                                        <input class="input-field" type="text" type="number" placeholder="Number of Childs "
+                                        <input class="input-field" type="text" type="number" placeholder="Number of Childrens"
                                             name="numberOFChilds" required>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@
                         <div class="flex-content">
                             <form action="{{ route('tourGuideReservations.store') }}" method="POST"  enctype="multipart/form-data"  id="form-tour-guide">
                                 @csrf
-                        
+
                                 <div class="input-container">
                                     <div class="col50-at">
                                         <input class="input-field" type="text" placeholder="full name"
