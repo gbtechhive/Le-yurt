@@ -37,8 +37,9 @@
     <link rel="stylesheet" href="assets/css/great_pics.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        {{-- font-awsome link  --}}
+        <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/fontawesome.min.css">
+        <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/all.min.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Le-yurt</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/faveicons/apple-touch-icon.png">
