@@ -20,7 +20,6 @@ class CreateTourGuidesTable extends Migration
             $table->string('language');
             $table->string('cellno');
             $table->date('date');
-            $table->string('gender');
             $table->bigInteger('status')->default(0);
             $table->timestamps();
         });

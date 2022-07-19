@@ -126,7 +126,7 @@
                                     <div class="col50-at">
                                         <i class="fa fa-users icon"></i>
                                         <i class="fa-solid fa-seat-airline"></i>
-                                        <input class="input-field" type="text" type="number" placeholder="Number of Children"
+                                        <input class="input-field" type="text" type="number" placeholder="Number of Childs"
                                             name="numberOFChilds" required>
                                     </div>
                                 </div>
@@ -219,7 +219,7 @@
                                         <input type="number" class="input-field"   name="cellno" placeholder="Contact Number">
                                     </div>
                                 </div>
-                                <div class="input-container">
+                                {{-- <div class="input-container">
                                     <div class="col50-at">
                                         <i class="fa fa-light fa-user icon"></i>
                                         <label class=" input-field class-label" for="class">Gender</label>
@@ -228,7 +228,7 @@
                                             <option value="Female">Female</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">

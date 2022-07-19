@@ -14,7 +14,6 @@ class tourGuide extends Model
         'location',
         'language',
         'cellno',
-        'gender',
         'date',
       
     ];

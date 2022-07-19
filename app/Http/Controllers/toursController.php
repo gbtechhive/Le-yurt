@@ -43,7 +43,6 @@ class toursController extends Controller
             'location'   => $request->location,
             'language'  => $request->language, 
             'cellno'   => $request->cellno, 
-            'gender'   => $request->gender, 
             'date'  => date("Y-m-d"),
           
         ];

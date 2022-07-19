@@ -53,8 +53,8 @@
         .alert {
                 width: 30%;
                 padding: 20px;
-                background-color:#9ACD32;
-                color: white;
+                background-color:#1819158f;
+                color: rgb(33, 195, 90);
                 position: absolute;
                 top: 80px;
                 opacity: 0.5;
@@ -62,7 +62,7 @@
 
         .closebtn {
             margin-left: 15px;
-            color: white;
+            color: rgb(33, 195, 90);
             font-weight: bold;
             float: right;
             font-size: 22px;
