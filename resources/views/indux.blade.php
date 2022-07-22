@@ -63,7 +63,7 @@
             Baltistan. Le Yurt offers visitors an educational and entertaining experience of a rural setting. We
             strive to provide maximum benefits to the local community by establishing ties with them.
         </p>
-        <a href="/">Explore more
+        <a href="/" id="services_area">Explore more
             <hr style="text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
         </a>
     </div>
@@ -219,16 +219,6 @@
                                         <input type="number" class="input-field"   name="cellno" placeholder="Contact Number">
                                     </div>
                                 </div>
-                                {{-- <div class="input-container">
-                                    <div class="col50-at">
-                                        <i class="fa fa-light fa-user icon"></i>
-                                        <label class=" input-field class-label" for="class">Gender</label>
-                                        <select name="gender" id="class" >
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                        </select>
-                                    </div>
-                                </div> --}}
                                 <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
