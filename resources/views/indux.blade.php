@@ -63,7 +63,7 @@
             Baltistan. Le Yurt offers visitors an educational and entertaining experience of a rural setting. We
             strive to provide maximum benefits to the local community by establishing ties with them.
         </p>
-        <a href="">Explore more
+        <a href="/">Explore more
             <hr style="text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
         </a>
     </div>
@@ -256,7 +256,7 @@
                     eco-friendly. Experience the unique and organic Bedouin Mongolian experience instead of residing
                     in a boring, non-eco-friendly, and concrete buildings that limit our interaction with nature.
                 </p>
-                <a href="#">Explore more
+                <a href="yurts">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -273,7 +273,7 @@
                 <p>Experience the cooking of your food, get involved with the chefs, and initiate a learning
                     process. Le Yurt provides you the opportunity to interact with the chefs and staff to learn the
                     tips and tricks of our delicious cuisine.</p>
-                <a href="#">Explore more
+                <a href="cuisine">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -293,7 +293,7 @@
                     and pick your favorite seasonal fruits. Enjoy the feeling of picking organic fruit from a tree
                     rather than opening a can. Enjoy the touch of nature with us.
                 </p>
-                <a href="#">Explore more
+                <a href="/">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -310,7 +310,7 @@
                 <p>Explore the centuries-old culture and traditions of Gilgit Baltistan with Le Yurt. Interact with
                     the locals, learn about their clothing style, learn how they live, and maybe try living like
                     them for a while.</p>
-                <a href="#">Explore more
+                <a href="cultural experience">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -326,7 +326,7 @@
                 <p>Experience the energy and passion of the indigenous people through year-long festivities. From
                     Ginani Festivals in Hunza to Shandur Polo Festival in Ghizer, enjoy the zeal and zest of locals
                     and get to know the notions behind these celebrations.</p>
-                <a href="#">Explore more
+                <a href="/">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -343,7 +343,7 @@
                     smell of gardens, and lush green land. Just sitting there will reconnect you to nature & make
                     you grounded, helping you cope with distressful mental energies and helping you rejuvenate
                     spiritually, emotionally, and physically. </p>
-                <a href="#">Explore more
+                <a href="/">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -359,7 +359,7 @@
                 <p> What’s better than a night with a bonfire, folk tales, and a cup of hot herbal tea. Learn about
                     the region's history through storytelling sessions in an open, non-judgmental, and accessible
                     environment. Share your thoughts and speak your heart out.</p>
-                <a href="#">Explore more
+                <a href="/">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -407,7 +407,7 @@
                         <p><i class="fas fa-check"></i>&nbsp;Temperature Controlled Environment</p>
                         <p><i class="fas fa-check"></i>&nbsp;Mini bar</p>
                     </div>
-                    <a href="#"> Explore more
+                    <a href="/"> Explore more
                         <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                     </a>
                 </div>
@@ -426,7 +426,7 @@
                         <p><i class="fas fa-check"></i>&nbsp;Temperature Controlled Environment</p>
                         <p><i class="fas fa-check"></i>&nbsp;* Extra bed</p>
                     </div>
-                    <a href="#"> Explore more
+                    <a href="/"> Explore more
                         <hr style="border: 1px solid #00AA4A;width: 85px; height: 0px;">
                     </a>
                 </div>
@@ -487,7 +487,7 @@
                     languages are spoken in this region, namely Burushaski, Shina,
                     and Khuwar.
                 </p>
-                <a href="#">Explore more
+                <a href="locations">Explore more
                     <hr style=" text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -502,7 +502,7 @@
                     Lake. This region's landscapes, culture, traditions, and hospitality are so wholesome that
                     hundreds of thousands of tourists visit Skardu yearly.
                 </p>
-                <a href="#">Explore more
+                <a href="locations">Explore more
                     <hr style=" text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
                 </a>
             </div>

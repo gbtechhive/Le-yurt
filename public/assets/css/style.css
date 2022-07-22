@@ -807,12 +807,17 @@ margin-right: 7.04px;
 .main_Experience_section .image_AND_txt_div .img_expr_condtainor {
     width: 38%;
 }
+
 .main_Experience_section .image_AND_txt_div .txt_expr_containor {
     width: 60%;
 }
 .main_Experience_section .image_AND_txt_div .img_expr_condtainor img {
     width: 100%;
 }
+.main_Experience_section .image_AND_txt_div .img_expr_condtainor:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
 
 @media screen and (max-width: 768px) {
     .main_Experience_section .image_AND_txt_div {
