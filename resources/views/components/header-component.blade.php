@@ -4,29 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:wght@300&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&family=Mohave:wght@300;700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&family=Mohave:wght@500&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&family=Mohave:ital,wght@0,300;0,700;1,300&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&family=Mohave:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Merriweather:wght@300&family=Mohave:ital,wght@0,700;1,300&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/mohive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="assets/css/nav.css" />

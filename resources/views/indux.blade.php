@@ -477,7 +477,7 @@
                     languages are spoken in this region, namely Burushaski, Shina,
                     and Khuwar.
                 </p>
-                <a href="locations">Explore more
+                <a href="{{ url('locations#hit-Ghizer') }}">Explore more
                     <hr style=" text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
                 </a>
             </div>

@@ -28,10 +28,11 @@
                     <img src="{{ asset('/assets/images/location_img/loca-img(14).jpg') }}" alt="">
                     <h4>Manthoka Waterfall</h4>
                 </div>
-                <div class="locatioin_img1">
+                <div class="locatioin_img1" id="hit-Ghizer">
                     <img src="{{ asset('/assets/images/location_img/loca-img(16).jpg') }}" alt="">
                     <h4>Upper Kachura Lake</h4>
                 </div>
+                <div style="display:none"></div>
             </div>
         </div>
         <div class="parent_location_section">
