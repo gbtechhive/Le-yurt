@@ -45,7 +45,7 @@
 }
 .post_slider .next {
     position: absolute;
-    top: 45%;
+    top: 56% !important;
     right: 40px;
     cursor: pointer;
     z-index: 1;
@@ -53,7 +53,7 @@
 }
 .post_slider .prev {
     position: absolute;
-    top: 45%;
+    top: 56% !important;
     left: 40px;
     cursor: pointer;
     z-index: 1;
