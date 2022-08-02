@@ -1260,9 +1260,20 @@ margin-right: 7.04px;
 
 .section_Experince .first_exper_div .parent_exper_section .img_card_exper {
     width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.section_Experince .first_exper_div .parent_exper_section .img_card_exper:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .section_Experince .first_exper_div .parent_exper_section .img_card_exper img {
     width: 100%;
+    transition:0.5s all;
+}
+.section_Experince .first_exper_div .parent_exper_section .img_card_exper img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .section_Experince .first_exper_div .parent_exper_section .text_card_exper {
