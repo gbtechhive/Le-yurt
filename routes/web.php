@@ -16,6 +16,7 @@ use App\Http\Controllers\toursController;
 use App\Http\Controllers\airTicketController;
 use App\Http\Controllers\carRentalController;
 use App\Http\Controllers\guestController;
+use App\Http\Controllers\ourServicesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +44,7 @@ Route::get('locations', [locationController::class, 'showLocations']);
 Route::get('experiences', [experienceController::class, 'showExperience']);
 Route::get('contectUs', [ContectUs::class, 'showContectUs']);
 Route::get('news', [controllerNews::class, 'showNews']);
+Route::get('Ourservice', [ourServicesController::class, 'ShowOurService']);
 
 Route::resource('reservation', guestController::class);
 Route::resource('airTicketReservations', airTicketController::class);

@@ -76,8 +76,11 @@
                         <a href="about" class="nav-link">About Us</a>
                     </li>
                     <li>
-                        <a href="{{ url('/#services_area') }}" class="nav-link">Our Services</a>
+                        <a href="{{ url('Ourservice') }}" class="nav-link">Our Services</a>
                     </li>
+                    {{-- <li>
+                        <a href="{{ url('/#services_area') }}" class="nav-link">Our Services</a>
+                    </li> --}}
                     <li>
                         <a href="yurts" class="nav-link">Yurts</a>
                     </li>
@@ -106,8 +109,11 @@
                         <a href="about" class="nav-link">About Us</a>
                     </li>
                     <li>
-                        <a href="{{'/#services_area'}}" class="nav-link">Our Services</a>
+                        <a href="{{'Ourservice'}}" class="nav-link">Our Services</a>
                     </li>
+                    {{-- <li>
+                        <a href="{{'/#services_area'}}" class="nav-link">Our Services</a>
+                    </li> --}}
                     <li>
                         <a href="yurts" class="nav-link">Yurts</a>
                     </li>
