@@ -165,7 +165,7 @@ color: #00AA4A;
       letter-spacing: 0.02em;
     }
   }
-  @media screenc and (max-width:375px) {
+  @media screen and (max-width:375px) {
     .great_place_container h3 {
         font-size: 25px;
         font-weight: 600;
@@ -173,6 +173,16 @@ color: #00AA4A;
     .great_place_container h3 span{
         font-size: 32px;
     }
+    .great_place_container .great_parent_container .item .content:hover h2{
+        margin: 3px 0px;
+        font-size: 17px;
+    }
+    .great_place_container .great_parent_container .item .content:hover p{
+        margin: 0px 5px;
+        font-size: 13px;
+        text-align: center;
+    }
+
   }
   @media screen and (max-width:326px) {
     .great_place_container h3 {
