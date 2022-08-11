@@ -477,7 +477,7 @@
                     languages are spoken in this region, namely Burushaski, Shina,
                     and Khuwar.
                 </p>
-                <a href="{{ url('locations#hit-Ghizer') }}">Explore more
+                <a href="ghizarLocation">Explore more
                     <hr style=" text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -492,7 +492,7 @@
                     Lake. This region's landscapes, culture, traditions, and hospitality are so wholesome that
                     hundreds of thousands of tourists visit Skardu yearly.
                 </p>
-                <a href="locations">Explore more
+                <a href="skdLocation">Explore more
                     <hr style=" text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
                 </a>
             </div>

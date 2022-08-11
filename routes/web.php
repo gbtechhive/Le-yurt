@@ -17,6 +17,8 @@ use App\Http\Controllers\airTicketController;
 use App\Http\Controllers\carRentalController;
 use App\Http\Controllers\guestController;
 use App\Http\Controllers\ourServicesController;
+use App\Http\Controllers\ghzrController;
+use App\Http\Controllers\skdController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +47,8 @@ Route::get('experiences', [experienceController::class, 'showExperience']);
 Route::get('contectUs', [ContectUs::class, 'showContectUs']);
 Route::get('news', [controllerNews::class, 'showNews']);
 Route::get('Ourservice', [ourServicesController::class, 'ShowOurService']);
+Route::get('ghizarLocation', [ghzrController::class, 'showGzr']);
+Route::get('skdLocation', [skdController::class, 'showSkd']);
 
 Route::resource('reservation', guestController::class);
 Route::resource('airTicketReservations', airTicketController::class);
