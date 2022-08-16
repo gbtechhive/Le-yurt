@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 /* {{{{{{{{{{{{{{{{{{{'post slider'}}}}}}}}}}}}}}}}}}} */
+datalist {
+    position: absolute !important;
+    background-color: white !important;
+    border: 1px solid blue !important;
+    border-radius: 0 0 5px 5px !important;
+    border-top: none !important;
+    font-family: sans-serif;
+    width: 500px !important;
+    padding: 5px !important;
+    max-height: 10rem !important;
+    overflow-y: auto !important;
+
+  }
+
+  option {
+    background-color: white !important;
+    padding: 4px !important;
+    color: blue !important;
+    margin-bottom: 1px !important;
+     font-size: 18px !important;
+    cursor: pointer !important;
+  }
 .post_slider {
     position: relative;
     background: #e5e5e5;

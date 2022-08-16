@@ -12,7 +12,8 @@
                     <input type="text" placeholder="family members">
                     <input type="text" list="browsers" placeholder="Skardu">
                     <datalist id="browsers">
-                        <option value="Ghizer">
+                        <option
+                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ghezar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
                     </datalist>
                     <input placeholder="4/8/2022" required="required" name="checkInn" type="text"
                         onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />

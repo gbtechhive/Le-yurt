@@ -27,8 +27,10 @@
                     <input list="browsers" placeholder="Location" name="location"
                         style="font-family: 'Mohave'; font-size:13px" />
                     <datalist id="browsers">
-                        <option value="Skardu">
-                        <option value="Ghizer">
+                        <option
+                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ghezar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
+                        <option
+                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skardu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
                     </datalist>
                     <input placeholder="Check In" required="required"  name="checkInn" type="text" onfocus="(this.type='date')"
                         onblur="if(!this.value)this.type='text'" />

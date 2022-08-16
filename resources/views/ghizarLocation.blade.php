@@ -12,7 +12,8 @@
                     <input type="text" placeholder="family members">
                     <input type="text" list="browsers" placeholder="Ghizer">
                     <datalist id="browsers">
-                        <option value="Skardu">
+                        <option
+                            value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skardu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
                     </datalist>
                     <input placeholder="4/8/2022" required="required" name="checkInn" type="text"
                         onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />
@@ -23,7 +24,7 @@
             </form>
         </div>
     </div>
-  <div class="avaliable_rooms">
+    <div class="avaliable_rooms">
         <h2>Rooms</h2>
         <div class="skd_parent_room">
             <div class="room_image_1">
@@ -47,7 +48,7 @@
                 </div>
             </div>
         </div>
-         <div class="skd_parent_room" id="second_room_id">
+        <div class="skd_parent_room" id="second_room_id">
             <div class="room_image_1">
                 <img src="{{ asset('/assets/images/skd_page/skd_5.jpg') }}" alt="img1">
             </div>
