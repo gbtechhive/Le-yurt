@@ -19,6 +19,7 @@ use App\Http\Controllers\guestController;
 use App\Http\Controllers\ourServicesController;
 use App\Http\Controllers\ghzrController;
 use App\Http\Controllers\skdController;
+use App\Http\Controllers\Booking_DetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,6 +50,7 @@ Route::get('news', [controllerNews::class, 'showNews']);
 Route::get('Ourservice', [ourServicesController::class, 'ShowOurService']);
 Route::get('ghizarLocation', [ghzrController::class, 'showGzr']);
 Route::get('skdLocation', [skdController::class, 'showSkd']);
+Route::get('BookingDetails', [Booking_DetailController::class, 'Show_BookingDetail']);
 
 Route::resource('reservation', guestController::class);
 Route::resource('airTicketReservations', airTicketController::class);

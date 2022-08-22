@@ -44,10 +44,15 @@
                 </div>
                 <div class="dy-row3">
                     <h3><span>$130</span>$100</h3>
-                    <button class="room1_btn1">Book Now</button>
+                    <button>
+                    <a href="BookingDetails" class="room1_btn1">
+                        Book Now
+                    </a>
+                </button>
                 </div>
             </div>
         </div>
+
         <div class="skd_parent_room" id="second_room_id">
             <div class="room_image_1">
                 <img src="{{ asset('/assets/images/skd_page/skd_5.jpg') }}" alt="img1">
@@ -66,7 +71,9 @@
                 </div>
                 <div class="dy-row3">
                     <h3><span>$100</span>$80</h3>
-                    <button class="room1_btn1">Book Now</button>
+                    <a href="BookingDetails">
+                        <button class="room1_btn1">Book Now</button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -19,7 +19,6 @@
         </div>
         {{-- {!! Toastr::message() !!} --}}
         <div class="form_container">
-
                 <form action="{{ route('reservation.store') }}" method="POST" class="form">
                     @csrf
                 <div class="form_inputs">
@@ -240,7 +239,7 @@
     <div class="slide_container active">
         <div class="slidee">
             <div class="slider_image">
-                <img src="{{ asset('assets/images/img_Slider(6).jpg') }}" width="100%" alt="">
+                <img src="{{ asset('assets/images/img_Slider(6).jpg') }}" width="100%" alt="img1">
             </div>
             <div class="slide_content">
                 <h3>Yurt</h3>

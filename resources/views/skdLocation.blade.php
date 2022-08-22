@@ -44,7 +44,9 @@
                 </div>
                 <div class="dy-row3">
                     <h3><span>$130</span>$100</h3>
-                    <button class="room1_btn1">Book Now</button>
+                    <button class="room1_btn1">
+                        <a href="BookingDetails">Book Now</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -66,7 +68,7 @@
                 </div>
                 <div class="dy-row3">
                     <h3><span>$100</span>$80</h3>
-                    <button class="room1_btn1">Book Now</button>
+                    <button class="room1_btn1"><a href="BookingDetails"> Book Now</a></button>
                 </div>
             </div>
         </div>
