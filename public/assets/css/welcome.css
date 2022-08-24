@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
     /* box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15); */
 }
 .welcome_container .contant {
@@ -63,6 +64,7 @@
     height: auto;
     background: #f3fcf6;
     padding: 10px 0;
+    overflow-x: hidden;
 }
 #services-container .wl_row .our_ser {
     display: flex;

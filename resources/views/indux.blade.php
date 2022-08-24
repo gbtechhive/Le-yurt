@@ -9,7 +9,8 @@
             <a href="https://api.whatsapp.com/send?phone=393456789715" target="_blank"><i
                     class="fa-solid fa-phone"></i></a>
         </div>
-        <div class="text_section">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="text_section">
             <h1>Le Yurt
             </h1>
             <p>
@@ -23,21 +24,23 @@
                     @csrf
                 <div class="form_inputs">
                     <input type="text" placeholder="Guests"  name="name" style="font-family: 'Mohave'; font-size:13px" />
-                    <input list="browsers" placeholder="Location" name="location"
-                        style="font-family: 'Mohave'; font-size:13px" />
-                    <datalist id="browsers">
-                        <option
-                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ghezar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
-                        <option
-                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skardu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
-                    </datalist>
+
+                        <div id="front_billdesc">
+                            <select id="front_test">
+                              <option class="non" value="loction">Location</option>
+                              <option class="non" value="Skardu">Ghizer</option>
+                              <option class="non" value="Ghizer">Ghizer</option>
+                              <option class="editable" value="other">Other</option>
+                            </select>
+                            <input class="editOption" style="display:none;" placeholder="Text juaj"></input>
+                        </div>
                     <input placeholder="Check In" required="required"  name="checkInn" type="text" onfocus="(this.type='date')"
                         onblur="if(!this.value)this.type='text'" />
                     <input placeholder="Check Out" required="required"   name="checkOut" type="text" onfocus="(this.type='date')"
                         onblur="if(!this.value)this.type='text'" />
                 </div>
                 <div class="button_cont">
-                    <button type="submit">Book Now</button>
+                    <button type="submit">Check availability</button>
                 </div>
             </form>
         </div>
@@ -52,26 +55,24 @@
   </div>
 @endif
 
-
-
 <div class="welcome_container">
 
     <div class="contant">
-        <h1>Welcome to <span>Le-Yurt</span></h1>
-        <p>
+        <h1 data-aos="fade-right">Welcome to <span>Le-Yurt</span></h1>
+        <p data-aos="fade-left">
             Le Yurt is a subsidiary of Apex Hotels and Resorts Pvt. that aims to provide quality residence in Gilgit
             Baltistan while being eco-friendly and sustainable. It is an initiative to boost Agrotourism in Gilgit
             Baltistan. Le Yurt offers visitors an educational and entertaining experience of a rural setting. We
             strive to provide maximum benefits to the local community by establishing ties with them.
         </p>
-        <a href="/" id="services_area">Explore more
+        <a data-aos="zoom-in-down" href="/" id="services_area">Explore more
             <hr style="text-align:center; border: 1px solid #00AA4A;width: 85px; height: 0px;">
         </a>
     </div>
 </div>
 <div id="services-container">
     <div class="wl_row">
-        <div class="our_ser">
+        <div data-aos="zoom-in" class="our_ser">
             <h1>Our </h1> &nbsp;&nbsp;
             <h1 class="serv">Services</h1>
         </div>
@@ -79,7 +80,7 @@
     <div class="wi-row2">
         <div class="col50">
             <div id="hcg-tabs-1" class="tabs-container">
-                <div id="tabs-nav">
+                <div data-aos="zoom-in-right" id="tabs-nav">
                     <a href="#" data-target="tab_1" class="tabs-menu tabs-menu-active"> <i
                             class="fa-solid fa-plane"></i> &nbsp;Airplane Ticket</a>
                     <a href="#" data-target="tab_2" class="tabs-menu"><i class="fa-solid fa-car-side"></i>
@@ -91,7 +92,7 @@
                     <div id="tab_1" class="tabs-panel" style="display:block">
                         <div class="flex-content">
 
-                <form action="{{ route('airTicketReservations.store') }}" method="POST"  enctype="multipart/form-data" class="form" id="form_section">
+                <form data-aos="zoom-in-right" action="{{ route('airTicketReservations.store') }}" method="POST"  enctype="multipart/form-data" class="form" id="form_section">
                     @csrf
 
                                 <div class="input-container">
@@ -134,13 +135,13 @@
                                 <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
-                                <img src="{{ asset('assets/images/undraw_aircraft-min.png') }}" alt="image">
+                                <img data-aos="zoom-out-down" src="{{ asset('assets/images/undraw_aircraft-min.png') }}" alt="image">
                             </div>
                         </div>
                     </div>
                     <div id="tab_2" class="tabs-panel">
                         <div class="flex-content">
-                            <form action="{{ route('vehicleReservations.store') }}" method="POST"  enctype="multipart/form-data" >
+                            <form data-aos="zoom-in-right" action="{{ route('vehicleReservations.store') }}" method="POST"  enctype="multipart/form-data" >
                                 @csrf
                                 <div class="input-container">
                                     <div class="col50-at">
@@ -187,13 +188,13 @@
                                 <button type="submit" class="btn">Submit Now</button>
                             </form>
                             <div class="col501">
-                                <img src="{{ asset('assets/images/servic-img(1).png') }}" alt="image">
+                                <img data-aos="zoom-out-down" src="{{ asset('assets/images/servic-img(1).png') }}" alt="image">
                             </div>
                         </div>
                     </div>
                     <div id="tab_3" class="tabs-panel tourGuideTab3">
                         <div class="flex-content">
-                            <form action="{{ route('tourGuideReservations.store') }}" method="POST"  enctype="multipart/form-data"  id="form-tour-guide">
+                            <form data-aos="zoom-in-right" action="{{ route('tourGuideReservations.store') }}" method="POST"  enctype="multipart/form-data"  id="form-tour-guide">
                                 @csrf
 
                                 <div class="input-container">
@@ -222,7 +223,7 @@
                                 </div>
                                 <button type="submit" class="btn">Submit Now</button>
                             </form>
-                            <div class="col501">
+                            <div data-aos="zoom-out-down" class="col501">
                                 <img src="{{ asset('assets/images/servic-img(2).png') }}" alt="image">
                             </div>
                         </div>
@@ -234,20 +235,19 @@
 </div>
 <!-- {{-- (((((((((((((((((((((((((((((slider container))))))))))))))))))))))))))))) --}} -->
 <div class="slider_container">
-    <h1>A Purely <span>Natural</span> Stay</h1>
-
+    <h1 data-aos="zoom-in">A Purely <span>Natural</span> Stay</h1>
     <div class="slide_container active">
         <div class="slidee">
             <div class="slider_image">
-                <img src="{{ asset('assets/images/img_Slider(6).jpg') }}" width="100%" alt="img1">
+                <img data-aos="flip-left" src="{{ asset('assets/images/img_Slider(6).jpg') }}" width="100%" alt="img1">
             </div>
-            <div class="slide_content">
-                <h3>Yurt</h3>
-                <p>Stay at a luxurious yurt equipped with modern-day facilities like a 5-star suite while being
+            <div data-aos="flip-right" class="slide_content">
+                <h3 data-aos="slide-right">Yurt</h3>
+                <p data-aos="slide-left">Stay at a luxurious yurt equipped with modern-day facilities like a 5-star suite while being
                     eco-friendly. Experience the unique and organic Bedouin Mongolian experience instead of residing
                     in a boring, non-eco-friendly, and concrete buildings that limit our interaction with nature.
                 </p>
-                <a href="yurts">Explore more
+                <a data-aos="slide-up" href="yurts">Explore more
                     <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
                 </a>
             </div>
@@ -379,15 +379,15 @@
 <div class="page_wrapper">
     <div class="post_slider">
         <!-- <<<<<<<<<<<<<<<<<post_slider>>>>>>>>>>>>>>>>>>>>> -->
-        <span class="top_text">A Concentration of Comfort</span>
-        <h3 class="slider_title">Yurts</h3>
+        <span data-aos="slide-right" class="top_text">A Concentration of Comfort</span>
+        <h3 data-aos="slide-left" class="slider_title">Yurts</h3>
         <i class="fa fa-caret-left prev" onclick="function next()" style="font-size: 36px"></i>
         <i class="fa fa-caret-right next" onclick="function prev()" style="font-size: 36px"></i>
         <div class="post_wrapper">
             <div class="post">
-                <img src="{{ asset('assets/images/R_img(1).jpg') }}" alt="" class="slider_image" />
-                <div class="post_info">
-                    <h3>Deluxe Yurt</h3>
+                <img data-aos="flip-up" src="{{ asset('assets/images/R_img(1).jpg') }}" alt="" class="slider_image" />
+                <div data-aos="flip-right" class="post_info">
+                    <h3 data-aos="slide-right">Deluxe Yurt</h3>
                     <div class="dy-row">
                         <p><i class="fas fa-check"></i>&nbsp;King size bed</p>
                         <p><i class="fas fa-check"></i>&nbsp;Complimentary Breakfast</p>
@@ -464,9 +464,9 @@
 </div>
 <div class="great_place_container">
     <div class="great_place_up"></div>
-    <h3>Stays in <span>Great Places</span></h3>
+    <h3 data-aos="fade-left">Stays in <span>Great Places</span></h3>
     <div class="great_parent_container">
-        <div class="item">
+        <div data-aos="flip-right" class="item">
             <div class="content">
                 <h2>Ghizer</h2>
                 <p>
@@ -483,7 +483,7 @@
                 </a>
             </div>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" class="item">
             <div class="content">
                 <h2>Skardu</h2>
                 <p>

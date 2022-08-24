@@ -101,6 +101,7 @@ font-size: 32px;
 
 .front_container .form_container .form .form_inputs input {
     background: #ffffff;
+    padding-left: 20px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     margin-right: 10px;
     font-style: normal;
@@ -109,6 +110,7 @@ font-size: 32px;
     letter-spacing: 0.02em;
     color: #747474;
     width: 100%;
+    border: none;
 }
 .front_container .form_container .form .form_inputs input:nth-child(1) {
     width: 100%;
@@ -134,6 +136,52 @@ font-size: 32px;
     padding-right: 15px;
     margin-right: 10px;
     border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#front_billdesc{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Mohave";
+    font-style: normal;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #747474;
+    border: none;
+    outline: none;
+}
+#front_test{
+    width: 100%;
+    padding: 13px 14px;
+    border: none;
+    outline: none;
+    font-family: "Mohave";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #747474;
+}
+option {
+    border: none;
+    outline: none;
+}
+
+.editOption{
+    width: 90%;
+    height: 26px;
+    position: relative;
+    top: -29px;
+    background: #00AA4A;
+    opacity: 0.6;
+    border: 0;
+    padding-left: 5px;
+    outline: none;
 }
 
 .front_container .form_container .form .form_inputs input:nth-child(5) {
@@ -144,6 +192,9 @@ font-size: 32px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+
+
 
 
 input[type="date"] {
@@ -241,6 +292,21 @@ border-color: #00AA4A;
     }
     .front_container .form_container .form .form_inputs {
         display: block;
+    }
+    .front_container .form_container .form .form_inputs input:nth-child(1),
+    .front_container .form_container .form .form_inputs input:nth-child(2),
+    .front_container .form_container .form .form_inputs input:nth-child(3),
+    .front_container .form_container .form .form_inputs input:nth-child(4) {
+        border-radius: 20px;
+        padding: 12px 16px;
+    }
+    #front_billdesc {
+        border-radius: 20px;
+        margin: 8px 0px;
+    }
+    #front_test {
+        padding: 12px 16px;
+        border-radius: 20px;
     }
     .front_container .form_container .form .form_inputs input {
         margin: 5px 0px;

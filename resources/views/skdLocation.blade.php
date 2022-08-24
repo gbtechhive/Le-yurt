@@ -10,11 +10,14 @@
             <form action="" id="form">
                 <div class="skd_inputs_parent">
                     <input type="text" placeholder="family members">
-                    <input type="text" list="browsers" placeholder="Skardu">
-                    <datalist id="browsers">
-                        <option
-                        value=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ghezar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
-                    </datalist>
+                    <div id="billdesc">
+                        <select id="test">
+                          <option class="non" value="Ghizer">Skardu</option>
+                          <option class="non" value="Skardu">Ghizer</option>
+                          <option class="editable" value="other">Other</option>
+                        </select>
+                        <input class="editOption" style="display:none;" placeholder="Text juaj"></input>
+                    </div>
                     <input placeholder="4/8/2022" required="required" name="checkInn" type="text"
                         onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />
                     <input placeholder="6/8/2022" required="required" name="checkOut" type="text"

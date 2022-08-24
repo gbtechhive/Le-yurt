@@ -34,7 +34,7 @@
                     <li>Price</li>
                     <li><span>$160</span></li>
                 </ul>
-                <button><a href="skdLocation">Change</a></button>
+                <button><a href="ghizarLocation">Change</a></button>
             </div>
             <div class="booking_card2">
                 <div class="booking_image">
@@ -48,9 +48,9 @@
                     </ul>
                     <ul class="room_location">
                         <li>Deluxe Yurt</li>
-                        <li>Skardu</li>
+                        <li>Ghizer</li>
                     </ul>
-                    <button><a href="skdLocation">Change</a> </button>
+                    <button><a href="ghizarLocation">Change</a> </button>
                 </div>
             </div>
         </div>

@@ -19,7 +19,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.active-nav {
+    color: #00aa4a !important;
+}
 @media screen and (max-width:768px){
     .Second_navbar{
         width: 100%;

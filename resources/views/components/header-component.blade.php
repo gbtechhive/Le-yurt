@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="/assets/mohive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="assets/css/nav.css" />
@@ -16,9 +17,9 @@
     <link rel="stylesheet" href="assets/css/great_pics.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/style.css" />
-        {{-- font-awsome link  --}}
-        <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/fontawesome.min.css">
-        <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/all.min.css">
+    {{-- font-awsome link --}}
+    <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/libaries/fontawesome-free-6.0.0-web/css/all.min.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Le-yurt</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/faveicons/apple-touch-icon.png">
@@ -31,14 +32,14 @@
 
     <style>
         .alert {
-                width: 30%;
-                padding: 20px;
-                background-color:#1819158f;
-                color: rgb(33, 195, 90);
-                position: absolute;
-                top: 80px;
-                opacity: 0.5;
-            }
+            width: 30%;
+            padding: 20px;
+            background-color: #1819158f;
+            color: rgb(33, 195, 90);
+            position: absolute;
+            top: 80px;
+            opacity: 0.5;
+        }
 
         .closebtn {
             margin-left: 15px;
@@ -73,28 +74,27 @@
                         <a href="/" class="nav-link {{ request()->is('/') ? 'active-nav' : '' }}">Home</a>
                     </li>
                     <li>
-                        <a href="about" class="nav-link">About Us</a>
+                        <a href="about" class="nav-link {{ request()->is('about') ? 'active-nav' : '' }}">About Us</a>
                     </li>
                     <li>
                         <a href="{{ url('Ourservice') }}" class="nav-link">Our Services</a>
                     </li>
-                    {{-- <li>
-                        <a href="{{ url('/#services_area') }}" class="nav-link">Our Services</a>
-                    </li> --}}
                     <li>
-                        <a href="yurts" class="nav-link">Yurts</a>
+                        <a href="yurts" class="nav-link {{ request()->is('Yurts') ? 'active-nav' : '' }}">Yurts</a>
                     </li>
                     <li>
-                        <a href="experiences" class="nav-link">Experience</a>
+                        <a href="experiences"
+                            class="nav-link {{ request()->is('experiences') ? 'active-nav' : '' }}">Experience</a>
                     </li>
                     <li>
-                        <a href="news" class="nav-link">News</a>
+                        <a href="news" class="nav-link {{ request()->is('news') ? 'active-nav' : '' }}">News</a>
                     </li>
                     <li>
-                        <a href="blog" class="nav-link">Blog</a>
+                        <a href="blog" class="nav-link {{ request()->is('blog') ? 'active-nav' : '' }}">Blog</a>
                     </li>
                     <li>
-                        <a href="contectUs" class="nav-link">Contact Us</a>
+                        <a href="contectUs"
+                            class="nav-link {{ request()->is('contectUs') ? 'active-nav' : '' }}">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -106,19 +106,19 @@
                         <a href="/" class="nav-link  {{ request()->is('/') ? 'active-nav' : '' }}">Home</a>
                     </li>
                     <li>
-                        <a href="about" class="nav-link">About Us</a>
+                        <a href="about" class="nav-link {{ request()->is('about') ? 'active-nav' : '' }}">About
+                            Us</a>
                     </li>
                     <li>
-                        <a href="{{'Ourservice'}}" class="nav-link">Our Services</a>
-                    </li>
-                    {{-- <li>
-                        <a href="{{'/#services_area'}}" class="nav-link">Our Services</a>
-                    </li> --}}
-                    <li>
-                        <a href="yurts" class="nav-link">Yurts</a>
+                        <a href="{{ 'Ourservice' }}"
+                            class="nav-link {{ request()->is('Ourservice') ? 'active-nav' : '' }}">Our Services</a>
                     </li>
                     <li>
-                        <a href="experiences" class="nav-link">Experience</a>
+                        <a href="yurts" class="nav-link {{ request()->is('yurts') ? 'active-nav' : '' }}">Yurts</a>
+                    </li>
+                    <li>
+                        <a href="experiences"
+                            class="nav-link {{ request()->is('experiences') ? 'active-nav' : '' }}">Experience</a>
                     </li>
                 </ul>
             </div>
@@ -128,13 +128,14 @@
             <div class="second_list">
                 <ul>
                     <li>
-                        <a href="news">News</a>
+                        <a href="news" class="nav-link {{ request()->is('news') ? 'active-nav' : '' }}">News</a>
                     </li>
                     <li>
-                        <a href="blog">Blog</a>
+                        <a href="blog" class="nav-link {{ request()->is('blog') ? 'active-nav' : '' }}">Blog</a>
                     </li>
                     <li>
-                        <a href="contectUs">Contact Us</a>
+                        <a href="contectUs" class="nav-link {{ request()->is('contectUs') ? 'active-nav' : '' }}">Contact
+                            Us</a>
                     </li>
                 </ul>
             </div>

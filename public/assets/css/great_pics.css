@@ -20,7 +20,7 @@
     background: #F3FCF6;
     height: 100%;
     padding: 50px 0px;
-
+    overflow-x: hidden;
   }
   .great_place_container h3 {
      text-align: center;
