@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 /* {{{{{{{{{{{{{{{{{{{'post slider'}}}}}}}}}}}}}}}}}}} */
 datalist {
@@ -2880,6 +2881,7 @@ margin: 10px 10px;
     letter-spacing: 0.03em;
     color: #444444;
     margin-top: 8px;
+    text-transform: none;
 }
 .servicesSection .serviceCol1 .Service-row1 .Service-col2 {
     width: 37%;

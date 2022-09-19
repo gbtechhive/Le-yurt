@@ -281,6 +281,7 @@ border-color: #00AA4A;
     }
     .front_container .form_container{
         width: 100%;
+
     }
     .front_container .form_container .form {
         /* display: block; */
@@ -353,6 +354,8 @@ border-color: #00AA4A;
     }
     .front_container .form_container {
         width: 99%;
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
         padding-bottom: 0;
         padding-top: 0px;
         margin: 0px auto;

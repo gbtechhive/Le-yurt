@@ -122,7 +122,6 @@ a.tabs-menu.tabs-menu-active {
     min-height: 150px;
     overflow: auto;
     padding: 10px;
-    /* height: 200px; */
     font-size: 14px;
     margin-top: 20px;
 }
@@ -340,6 +339,11 @@ a.tabs-menu.tabs-menu-active {
         margin-bottom: 15px;
         column-gap: 15px;
         background-color: #f3fcf6;
+    }
+    .tabs-panel {
+        padding: 0px;
+        font-size: 14px;
+        margin-top: 10px;
     }
     .input-container .col50-at {
         display: flex;

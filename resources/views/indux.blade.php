@@ -422,43 +422,7 @@
                     </a>
                 </div>
             </div>
-            <!-- <div class="post">
-                    <img src="{{ asset('assets/images/R_img(6).jpg') }}" alt="" class="slider_image" />
-                    <div class="post_info">
-                        <h3>Deluxe</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.
-                        </p>
-                        <a href="#"> Explore more
-                            <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
-                        </a>
-                    </div>
-                </div>
-                <div class="post">
-                    <img src="{{ asset('assets/images/R_img(3).jpg') }}" alt="" class="slider_image" />
-                    <div class="post_info">
-                        <h3>Deluxe</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.
-                        </p>
-                        <a href="#"> Explore more
-                            <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
-                        </a>
-                    </div>
-                </div>
-                <div class="post">
-                    <img src="{{ asset('assets/images/R_img(6).jpg') }}" alt="" class="slider_image" />
-                    <div class="post_info">
-                        <h3>Deluxe</h3>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.</p>
-                        <a href="#"> Explore more
-                            <hr style="border: 1px solid #00AA4A;;width: 85px; height: 0px;">
-                        </a>
-                    </div>
-                </div> -->
+
         </div>
     </div>
 </div>
